@@ -1,0 +1,15 @@
+C:\Users\aldo.matus\Documents\VSProjects\Supply\WPFDemo\WPFDemo\bin\Debug\WPFDemo.exe.config
+C:\Users\aldo.matus\Documents\VSProjects\Supply\WPFDemo\WPFDemo\bin\Debug\WPFDemo.exe
+C:\Users\aldo.matus\Documents\VSProjects\Supply\WPFDemo\WPFDemo\bin\Debug\WPFDemo.pdb
+C:\Users\aldo.matus\Documents\VSProjects\Supply\WPFDemo\WPFDemo\obj\Debug\WPFDemo.csprojResolveAssemblyReference.cache
+C:\Users\aldo.matus\Documents\VSProjects\Supply\WPFDemo\WPFDemo\obj\Debug\View\MainWindow.g.cs
+C:\Users\aldo.matus\Documents\VSProjects\Supply\WPFDemo\WPFDemo\obj\Debug\App.g.cs
+C:\Users\aldo.matus\Documents\VSProjects\Supply\WPFDemo\WPFDemo\obj\Debug\WPFDemo_MarkupCompile.cache
+C:\Users\aldo.matus\Documents\VSProjects\Supply\WPFDemo\WPFDemo\obj\Debug\WPFDemo_MarkupCompile.lref
+C:\Users\aldo.matus\Documents\VSProjects\Supply\WPFDemo\WPFDemo\obj\Debug\View\MainWindow.baml
+C:\Users\aldo.matus\Documents\VSProjects\Supply\WPFDemo\WPFDemo\obj\Debug\WPFDemo.g.resources
+C:\Users\aldo.matus\Documents\VSProjects\Supply\WPFDemo\WPFDemo\obj\Debug\WPFDemo.Properties.Resources.resources
+C:\Users\aldo.matus\Documents\VSProjects\Supply\WPFDemo\WPFDemo\obj\Debug\WPFDemo.csproj.GenerateResource.Cache
+C:\Users\aldo.matus\Documents\VSProjects\Supply\WPFDemo\WPFDemo\obj\Debug\WPFDemo.csproj.CoreCompileInputs.cache
+C:\Users\aldo.matus\Documents\VSProjects\Supply\WPFDemo\WPFDemo\obj\Debug\WPFDemo.exe
+C:\Users\aldo.matus\Documents\VSProjects\Supply\WPFDemo\WPFDemo\obj\Debug\WPFDemo.pdb

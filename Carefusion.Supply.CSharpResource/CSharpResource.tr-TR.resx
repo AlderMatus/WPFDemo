@@ -1,0 +1,1424 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Abort" xml:space="preserve">
+    <value>Durdur</value>
+  </data>
+  <data name="Aborted" xml:space="preserve">
+    <value>Durduruldu</value>
+  </data>
+  <data name="Activity" xml:space="preserve">
+    <value>Etkinlik</value>
+  </data>
+  <data name="add" xml:space="preserve">
+    <value>Ekle</value>
+  </data>
+  <data name="addDirectory" xml:space="preserve">
+    <value>Dizin Ekle</value>
+  </data>
+  <data name="AddFormatToSave" xml:space="preserve">
+    <value>Çalışmak için bir biçim seçilmesi gerekiyor.</value>
+  </data>
+  <data name="AddLocationToPrint" xml:space="preserve">
+    <value>Yazıcılar, Konsol Tesis seçeneklerinde ayarlanmamış ve varsayılan yazıcı yok. Raporları yazdırmak için yazıcıların ayarlanması gerekir.</value>
+  </data>
+  <data name="AddLocationToSave" xml:space="preserve">
+    <value>Dışa aktarma konumları, Konsol Tesis seçeneklerinde ayarlanmamış. Raporları dışa aktarmak için konumların ayarlanması gerekir.</value>
+  </data>
+  <data name="addPrinter" xml:space="preserve">
+    <value>Yazıcı Ekle</value>
+  </data>
+  <data name="After" xml:space="preserve">
+    <value>Sonra</value>
+  </data>
+  <data name="Aftercurrentdate" xml:space="preserve">
+    <value>Bugün dahil gelecekteki tarihler</value>
+  </data>
+  <data name="AlarmSilent" xml:space="preserve">
+    <value>Sessiz</value>
+  </data>
+  <data name="AlarmSpeech" xml:space="preserve">
+    <value>Konuşma</value>
+  </data>
+  <data name="AlarmTone" xml:space="preserve">
+    <value>Ton</value>
+  </data>
+  <data name="Alias" xml:space="preserve">
+    <value>Takma ad</value>
+  </data>
+  <data name="All" xml:space="preserve">
+    <value>Tümü</value>
+  </data>
+  <data name="AllDatesFromTomorrow" xml:space="preserve">
+    <value>Bugünden sonra</value>
+  </data>
+  <data name="AllDatesToYesterday" xml:space="preserve">
+    <value>Bugünden önce</value>
+  </data>
+  <data name="andwithspace" xml:space="preserve">
+    <value> ve </value>
+  </data>
+  <data name="April" xml:space="preserve">
+    <value>Nisan</value>
+  </data>
+  <data name="Ascending" xml:space="preserve">
+    <value>Artan</value>
+  </data>
+  <data name="August" xml:space="preserve">
+    <value>Ağustos</value>
+  </data>
+  <data name="AutoRefill" xml:space="preserve">
+    <value>Otomatik Yeniden Doldurma</value>
+  </data>
+  <data name="BadEndDate" xml:space="preserve">
+    <value>Lütfen başlangıç tarihiyle aynı veya bu tarihten sonra olan bir bitiş tarihi girin.</value>
+  </data>
+  <data name="BadGroupOrSort" xml:space="preserve">
+    <value>{0} kutusu {1} ve {2} benzerdir. Bu seçimi yapmak istediğinizden emin olun.</value>
+  </data>
+  <data name="BadPrice" xml:space="preserve">
+    <value>Ondalık biçimi yanlış. XXXXXXXXX,ZZZZ olmalı</value>
+  </data>
+  <data name="BadStartTime" xml:space="preserve">
+    <value>Lütfen gelecekteki bir başlangıç saati girin.</value>
+  </data>
+  <data name="BatchReport" xml:space="preserve">
+    <value>seri rapor</value>
+  </data>
+  <data name="Before" xml:space="preserve">
+    <value>Önce</value>
+  </data>
+  <data name="Beforecurrentdate" xml:space="preserve">
+    <value>Bugün dahil geçmiş tarihler</value>
+  </data>
+  <data name="BlankNode" xml:space="preserve">
+    <value>Dizin adı boş olamaz.</value>
+  </data>
+  <data name="BothNetworkAndLocalPrinterFailed" xml:space="preserve">
+    <value>Ağ yazıcısı ve yerel yazıcı yüklenemedi.</value>
+  </data>
+  <data name="Calendar1stHalf" xml:space="preserve">
+    <value>Takvimin birinci yarısı</value>
+  </data>
+  <data name="Calendar1stQtr" xml:space="preserve">
+    <value>Takvimin 1. çeyreği</value>
+  </data>
+  <data name="Calendar2ndHalf" xml:space="preserve">
+    <value>Takvimin ikinci yarısı</value>
+  </data>
+  <data name="Calendar2ndQtr" xml:space="preserve">
+    <value>Takvimin 2. çeyreği</value>
+  </data>
+  <data name="Calendar3rdQtr" xml:space="preserve">
+    <value>Takvimin 3. çeyreği</value>
+  </data>
+  <data name="Calendar4thQtr" xml:space="preserve">
+    <value>Takvimin 4. çeyreği</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>İptal et</value>
+  </data>
+  <data name="cannotAddDirectory" xml:space="preserve">
+    <value>Yeni dizin eklenemiyor. Lütfen tekrar deneyin.</value>
+  </data>
+  <data name="cannotDeleteFilters" xml:space="preserve">
+    <value>Bu seri raporların rapor filtreleri silinemedi</value>
+  </data>
+  <data name="cannotDeleteReport" xml:space="preserve">
+    <value>Bu Rapor silinemedi</value>
+  </data>
+  <data name="CannotDeleteSaved" xml:space="preserve">
+    <value>Bu Kaydedilen Rapor silinemedi</value>
+  </data>
+  <data name="cannotDeleteSchedule" xml:space="preserve">
+    <value>Bu seri raporun programı silinemedi.</value>
+  </data>
+  <data name="CannotEnableTask" xml:space="preserve">
+    <value>Bu görev etkinleştirilemiyor çünkü bu, başlangıç tarihi geçmişte olan bir seferlik bir görev. Geleceğe yönelik olarak yeniden planlamak için bu görevi ve başlangıç tarihini geleceğe yönelik olarak düzenleyin, sonra da etkinleştirin.</value>
+  </data>
+  <data name="cannotFindXMLRepTemplate" xml:space="preserve">
+    <value>ReportTemplateData.xml dosyası bulunamıyor. Lütfen destek merkezi ile iletişime geçin.</value>
+  </data>
+  <data name="cannotMoveReport" xml:space="preserve">
+    <value>Seçili Rapor/Raporlar bu konuma taşınamıyor.</value>
+  </data>
+  <data name="CannotQReport" xml:space="preserve">
+    <value>Rapor, {0} için sıraya alınamadı.</value>
+  </data>
+  <data name="Category" xml:space="preserve">
+    <value>Kategori</value>
+  </data>
+  <data name="CDMExist" xml:space="preserve">
+    <value>Bu CDM numarası zaten mevcut</value>
+  </data>
+  <data name="CDMInvalidChars" xml:space="preserve">
+    <value>CDM numarasında geçersiz karakterler bulunuyor.</value>
+  </data>
+  <data name="CDMMissing" xml:space="preserve">
+    <value>CDM değeri eksik</value>
+  </data>
+  <data name="ChangeItemClassQuestion" xml:space="preserve">
+    <value>Öğe Sınıfı'nı değiştirmek, bunu her öğe için değiştirecektir.  Devam etmek istediğinizden emin misiniz?</value>
+  </data>
+  <data name="ClassName" xml:space="preserve">
+    <value>Sınıf Adı</value>
+  </data>
+  <data name="CloseNoSave" xml:space="preserve">
+    <value>Değiştirilen yapılandırma kaydedilmedi. Çıkmak istiyor musunuz?</value>
+  </data>
+  <data name="comment" xml:space="preserve">
+    <value>Yorum</value>
+  </data>
+  <data name="Completed" xml:space="preserve">
+    <value>Tamamlandı</value>
+  </data>
+  <data name="configuredPrinterNotFoundText" xml:space="preserve">
+    <value>{0} raporuna atanan yazıcı bulunamadı. Bu rapordaki değişiklikleri kaydetmeden önce yeni bir yazıcı seçmeniz gerekiyor.</value>
+  </data>
+  <data name="confirmBatchReportDelete" xml:space="preserve">
+    <value>Seçili Seri Raporu/Raporları silmek istediğinizden emin misiniz?</value>
+  </data>
+  <data name="confirmDirectoryDelete" xml:space="preserve">
+    <value>Bu Dizin'i silmek istediğinizden emin misiniz?</value>
+  </data>
+  <data name="ConfirmReportDelete" xml:space="preserve">
+    <value>Seçili Raporu/Raporları silmek istediğinizden emin misiniz?</value>
+  </data>
+  <data name="confirmReportDeleteText" xml:space="preserve">
+    <value>'{0}' raporunu silmek istediğinizden emin misiniz?
+
+Not: Bu silme işlemi, siz Tamam'ı seçene kadar gerçekleştirilmez.</value>
+  </data>
+  <data name="CriticalLow" xml:space="preserve">
+    <value>Kritik Seviyede Düşük</value>
+  </data>
+  <data name="CSV" xml:space="preserve">
+    <value>CSV</value>
+    <comment>file type</comment>
+  </data>
+  <data name="CycleCountReportFilename" xml:space="preserve">
+    <value>Döngü Sayımı Öğeleri_en-US</value>
+  </data>
+  <data name="DailyAtSpace" xml:space="preserve">
+    <value>Her gün şu saatte: </value>
+  </data>
+  <data name="DatabaseCastError" xml:space="preserve">
+    <value>{0} tablosuna erişirken bir veritabanı cast hatası oluştu: {1}</value>
+  </data>
+  <data name="DatabaseError" xml:space="preserve">
+    <value>Bu raporu veritabanına kaydetmeye çalışırken bir hata oluştu. service_message tablosuna bakın.</value>
+  </data>
+  <data name="DataTableEditCancelChanges" xml:space="preserve">
+    <value>{0} ile ilgili değişiklikler yaptınız.  İptal etmek istediğinizden emin misiniz?</value>
+  </data>
+  <data name="DataTableEditIllegalCharactersWarning" xml:space="preserve">
+    <value>{0}, {1} için geçersiz karakterlerdir</value>
+  </data>
+  <data name="date" xml:space="preserve">
+    <value>Tarih</value>
+  </data>
+  <data name="DateAfterFormat" xml:space="preserve">
+    <value>şundan sonra: {0}</value>
+  </data>
+  <data name="DateBeforeFormat" xml:space="preserve">
+    <value>şundan önce: {0}</value>
+  </data>
+  <data name="DateFilterErr" xml:space="preserve">
+    <value>Tarihe göre filtrelenmiş Yeniden Doldurma Raporu asla olmamalıdır</value>
+  </data>
+  <data name="DateRangeFormat" xml:space="preserve">
+    <value>{0} öğesinden {1} öğesine kadar</value>
+  </data>
+  <data name="Day" xml:space="preserve">
+    <value>Gün</value>
+  </data>
+  <data name="Daylowercase" xml:space="preserve">
+    <value>gün</value>
+  </data>
+  <data name="days" xml:space="preserve">
+    <value>gün</value>
+  </data>
+  <data name="daysprior31to60" xml:space="preserve">
+    <value>31 ila 60 gün önce</value>
+  </data>
+  <data name="daysprior61to90" xml:space="preserve">
+    <value>61 ila 90 gün önce</value>
+  </data>
+  <data name="December" xml:space="preserve">
+    <value>Aralık</value>
+  </data>
+  <data name="DefaultDirNotSetup" xml:space="preserve">
+    <value>İstemci Konsolu varsayılan dizini ayarlanmamış. Lütfen Tesis Seçenekleri iletişim kutusundan varsayılan bir dizin ayarlayın.</value>
+  </data>
+  <data name="defaultHybridAbcCalculationTaskName" xml:space="preserve">
+    <value>Hibrit Abc Hesaplama Görevi</value>
+  </data>
+  <data name="DefaultPrinterNotFound" xml:space="preserve">
+    <value>Varsayılan Yazıcı bulunamadı. Yazdırma başarısız oldu.</value>
+  </data>
+  <data name="delete" xml:space="preserve">
+    <value>Sil</value>
+  </data>
+  <data name="DeleteDirectory" xml:space="preserve">
+    <value>Dizini Sil</value>
+  </data>
+  <data name="Descending" xml:space="preserve">
+    <value>Azalan</value>
+  </data>
+  <data name="description" xml:space="preserve">
+    <value>Tanımlama</value>
+  </data>
+  <data name="destination" xml:space="preserve">
+    <value>Hedef</value>
+  </data>
+  <data name="dirContainsBatchReports" xml:space="preserve">
+    <value>Bu dizinde seri raporlar bulunuyor! Lütfen tüm dosyaları silin veya silmeden önce farklı bir dizine taşıyın.</value>
+  </data>
+  <data name="dirExists" xml:space="preserve">
+    <value>Bu dizin adı zaten mevcut. Lütfen tekrar deneyin.</value>
+  </data>
+  <data name="dirUnavailable" xml:space="preserve">
+    <value>Hedef dizin kullanılamıyor. Seçili Rapor/Raporlar bu konuma taşınamaz.</value>
+  </data>
+  <data name="Disabled" xml:space="preserve">
+    <value>Devre Dışı</value>
+  </data>
+  <data name="DupDescription" xml:space="preserve">
+    <value>Bu göre tanımlaması zaten mevcut. Lütfen bu planlanan yeniden dolum için benzersiz bir açıklama girin.</value>
+  </data>
+  <data name="DuplicateDefault" xml:space="preserve">
+    <value>Yinelenen varsayılan ayarlar</value>
+  </data>
+  <data name="DuplicateDescription" xml:space="preserve">
+    <value>Bu Dizin Tanımlaması zaten mevcut. Lütfen benzersiz bir açıklama seçin.</value>
+  </data>
+  <data name="DuplicatedPrinterDescription" xml:space="preserve">
+    <value>Bu Yazıcı Tanımlaması zaten mevcut. Lütfen benzersiz bir açıklama seçin.</value>
+  </data>
+  <data name="DuplicatePath" xml:space="preserve">
+    <value>Bu Dizin Yolu zaten mevcut. Lütfen benzersiz bir yol seçin.</value>
+  </data>
+  <data name="edit" xml:space="preserve">
+    <value>Düzenle</value>
+  </data>
+  <data name="editDirectory" xml:space="preserve">
+    <value>Dizini Düzenle</value>
+  </data>
+  <data name="editPrinter" xml:space="preserve">
+    <value>Yazıcıyı Düzenle</value>
+  </data>
+  <data name="EmailFooterDisclaimer" xml:space="preserve">
+    <value>Bu mesaj sadece belirlenen alıcıya yöneliktir ve imtiyazlı, gizli veya başka bir şekilde özel bilgiler içerebilir. Bu mesajı yanlışlıkla aldıysanız lütfen gönderen kişiyi derhal bilgilendirin ve asıl mesajı silin. E-postayı başka şekilde kullanmanız yasaktır.</value>
+  </data>
+  <data name="EmailNoReply" xml:space="preserve">
+    <value>Bu, otomatik olarak oluşturulmuş bir e-posta mesajıdır. Lütfen bu mesajı yanıtlamayın.</value>
+  </data>
+  <data name="EmailSendFail" xml:space="preserve">
+    <value>E-posta gönderilemedi.  Lütfen Pyxis Sistem Yöneticinizle iletişim kurun. </value>
+  </data>
+  <data name="EmailSendSuccess" xml:space="preserve">
+    <value>E-posta başarıyla gönderildi.</value>
+  </data>
+  <data name="EmptyCostCenter" xml:space="preserve">
+    <value>Maliyet merkezi boş</value>
+  </data>
+  <data name="EndTimeAfterStart" xml:space="preserve">
+    <value>Lütfen başlangıç saatinden önce olan bir bitiş saati girin veya "bitiş tarihi yok"u seçin.</value>
+  </data>
+  <data name="EndTimePast" xml:space="preserve">
+    <value>Lütfen gelecekte bir bitiş saati girin veya "bitiş tarihi yok"u seçin.</value>
+  </data>
+  <data name="EnterNetworkDriveLetter" xml:space="preserve">
+    <value>Lütfen ağ sürücüsünün harfini girin (ör: N:, P:, vb.).</value>
+  </data>
+  <data name="EnvVarNotSetup" xml:space="preserve">
+    <value>Görüntüleme başarısız oldu. Konsol Raporu Dizini, Sistem ortamında ayarlanmamış.
+Lütfen Teknik Destek birimiyle iletişime geçin.</value>
+  </data>
+  <data name="EqualsFormat" xml:space="preserve">
+    <value>{0} öğesine eşittir</value>
+  </data>
+  <data name="ErrorViewingReport" xml:space="preserve">
+    <value>Raporu görüntüleme başarısız oldu, lütfen tekrar deneyin.</value>
+  </data>
+  <data name="EverySpace" xml:space="preserve">
+    <value>Her </value>
+  </data>
+  <data name="EXCEL" xml:space="preserve">
+    <value>EXCEL (97)</value>
+  </data>
+  <data name="existingReportNameConflictText" xml:space="preserve">
+    <value>'{0}' zaten kullanılıyor.</value>
+  </data>
+  <data name="existingScheduledTaskNameConflictText" xml:space="preserve">
+    <value>'{0}' adında programlanmış bir görev zaten mevcut.  Bu, raporu planlama sırasında çakışmaya neden olacaktır.</value>
+  </data>
+  <data name="Exiting" xml:space="preserve">
+    <value>çıkıyor</value>
+    <comment>app is exiting execution</comment>
+  </data>
+  <data name="Export" xml:space="preserve">
+    <value>dışa aktarıyor</value>
+  </data>
+  <data name="ExportSimple" xml:space="preserve">
+    <value>Dışa aktar</value>
+  </data>
+  <data name="ExportSimpleTooltip" xml:space="preserve">
+    <value>Bu raporu seçili Konum'a dışa aktar (e-posta) ve bu ekranda kal</value>
+  </data>
+  <data name="Failed" xml:space="preserve">
+    <value>Başarısız</value>
+  </data>
+  <data name="February" xml:space="preserve">
+    <value>Şubat</value>
+  </data>
+  <data name="Fifth" xml:space="preserve">
+    <value>Beşinci</value>
+  </data>
+  <data name="First" xml:space="preserve">
+    <value>Birinci</value>
+  </data>
+  <data name="format" xml:space="preserve">
+    <value>Biçim</value>
+  </data>
+  <data name="Fourth" xml:space="preserve">
+    <value>Dördüncü</value>
+  </data>
+  <data name="Friday" xml:space="preserve">
+    <value>Cuma</value>
+  </data>
+  <data name="From" xml:space="preserve">
+    <value>Çıkış</value>
+    <comment>as in a range from x to y</comment>
+  </data>
+  <data name="Group" xml:space="preserve">
+    <value>Grup</value>
+  </data>
+  <data name="GroupItemNotSelected" xml:space="preserve">
+    <value>Grup öğesi seçilmemiş.</value>
+  </data>
+  <data name="HazardMsg" xml:space="preserve">
+    <value>Tehlike Mesajı</value>
+  </data>
+  <data name="HHListTooltip" xml:space="preserve">
+    <value>İşaretlenen görevler etkinleştirildi</value>
+  </data>
+  <data name="hybridAbcStartTimeInstructions" xml:space="preserve">
+    <value>Yapmamanız gerekenler...</value>
+  </data>
+  <data name="hybridAbcTaskNotDefinedText" xml:space="preserve">
+    <value>Hybrit ABC Hesaplama Görevi yapılandırılmamış.  Döngü Sayım Raporları, görev uygun şekilde yapılandırılana kadar oluşturulmayacak.
+
+Bunu bu sefer yapmak istiyor musunuz?</value>
+  </data>
+  <data name="HzrdName" xml:space="preserve">
+    <value>Tehlike Adı</value>
+  </data>
+  <data name="IDS_MAILER_SMTP_BODY" xml:space="preserve">
+    <value>&lt;HTML&gt;&lt;HEAD&gt;&lt;/HEAD&gt;&lt;BODY bgColor="#FFFFF0"&gt;&lt;p&gt;&lt;span style="font-family: Arial"&gt;Pyxis&lt;sup&gt;&amp;reg;&lt;/sup&gt; SupplyCenter&amp;trade; Rapor Servisi talebinizi tamamladı.  Raporunuz ektedir.&lt;/p&gt;&lt;/BODY&gt;&lt;/HTML&gt;</value>
+  </data>
+  <data name="IDS_MAILER_SMTP_SUBJECT" xml:space="preserve">
+    <value>Rapor Tamamlama Bildirimi</value>
+  </data>
+  <data name="Ignore" xml:space="preserve">
+    <value>Yoksay</value>
+  </data>
+  <data name="ImmediateBackup" xml:space="preserve">
+    <value>anında yedekleme</value>
+    <comment>perform a DB backup now</comment>
+  </data>
+  <data name="ImportDataFormatError" xml:space="preserve">
+    <value>Sütun {1}, {2} için {0} satırında HATA</value>
+  </data>
+  <data name="ImportEnterFilePath" xml:space="preserve">
+    <value>Lütfen bir dosya yolu girin</value>
+  </data>
+  <data name="ImportFileNotFound" xml:space="preserve">
+    <value>Dosya Bulunamadı</value>
+  </data>
+  <data name="ImportInsertFailed" xml:space="preserve">
+    <value>BAŞARISIZ - {0} satırına ekle</value>
+  </data>
+  <data name="ImportInsertSucceeded" xml:space="preserve">
+    <value>Başarılı oldu - {0} Öğe Kimliği ve {1} costCenter ekleme</value>
+  </data>
+  <data name="ImportUpdateFailed" xml:space="preserve">
+    <value>Başarısız - {0} satırında güncelleme</value>
+  </data>
+  <data name="ImportUpdateSucceeded" xml:space="preserve">
+    <value>Başarılı oldu - {0} Öğe Kimliği ve {1} costCenter güncellemesi</value>
+  </data>
+  <data name="InvalidCostCenter" xml:space="preserve">
+    <value>Maliyet merkezi adı 10 karakteri aşamaz.</value>
+  </data>
+  <data name="InvalidDefaultValue" xml:space="preserve">
+    <value>Varsayılan değer, 0 veya 1 olmalıdır.</value>
+  </data>
+  <data name="InvalidNode" xml:space="preserve">
+    <value>Geçersiz dizin adı.</value>
+  </data>
+  <data name="InvalidPath" xml:space="preserve">
+    <value>Dizin yolu geçersiz, lütfen göz atın ve geçerli yol seçin.</value>
+  </data>
+  <data name="InvalidSelection" xml:space="preserve">
+    <value>Geçersiz Seçim</value>
+  </data>
+  <data name="Inventory" xml:space="preserve">
+    <value>Envanter</value>
+  </data>
+  <data name="ItemAliasCountError" xml:space="preserve">
+    <value>Maksimum sayıda ({0}) takma ad zaten atandı.</value>
+  </data>
+  <data name="ItemAliasEditDialogTitle" xml:space="preserve">
+    <value>{0} için Öğe Takma Adları Düzenleme</value>
+  </data>
+  <data name="ItemAliasEditTableDescription" xml:space="preserve">
+    <value>'{0}' öğesi için Öğe Takma Adları</value>
+  </data>
+  <data name="ItemAliasLengthError" xml:space="preserve">
+    <value>Öğe Takma Adları, {0} ile {1} karakter arasında olmalıdır.</value>
+  </data>
+  <data name="ItemAliasReferenced" xml:space="preserve">
+    <value>'{0}' Öğe Takma Adı'na, '{1}' tarafından zaten başvurulmuş.</value>
+  </data>
+  <data name="ItemCategoryEditDialogTitle" xml:space="preserve">
+    <value>Öğe Kategorisi Düzenleme</value>
+  </data>
+  <data name="ItemCategoryEditTableDescription" xml:space="preserve">
+    <value>Öğe Kategorileri</value>
+  </data>
+  <data name="ItemCategoryLengthError" xml:space="preserve">
+    <value>Öğe Kategorisi, {0} ile {1} karakter arasında olmalıdır.</value>
+  </data>
+  <data name="ItemCategoryStillReferenced" xml:space="preserve">
+    <value>Öğe Kategorisi silinemiyor: '{0}'.
+Bu kategori, öğelere atanmış.</value>
+  </data>
+  <data name="ItemClassCountError" xml:space="preserve">
+    <value>Sistem, en fazla {0} öğe sınıfına izin veriyor.</value>
+  </data>
+  <data name="ItemClassEditDialogTitle" xml:space="preserve">
+    <value>Öğe Sınıfı Düzenleme</value>
+  </data>
+  <data name="ItemClassEditTableDescription" xml:space="preserve">
+    <value>Öğe Sınıfları</value>
+  </data>
+  <data name="ItemClassNameLengthError" xml:space="preserve">
+    <value>Sınıf Adları, {0} ile {1} karakter arasında olmalıdır.</value>
+  </data>
+  <data name="ItemClassStillReferenced" xml:space="preserve">
+    <value>Sınıf silinemiyor: '{0}'.
+Bu sınıf, öğelere atanmış.</value>
+  </data>
+  <data name="ItemDefaultClass" xml:space="preserve">
+    <value>Bu, varsayılan bir sınıftır.  Düzenlenebilir ancak silinemez.</value>
+  </data>
+  <data name="ItemHazardEditDialogTitle" xml:space="preserve">
+    <value>Öğe Tehlikesi Tanımı Düzenleme</value>
+  </data>
+  <data name="ItemHazardEditTableDescription" xml:space="preserve">
+    <value>Öğe Tehlikesi Tanımları</value>
+  </data>
+  <data name="ItemHazardNameLengthError" xml:space="preserve">
+    <value>Tehlike Adları, {0} ile {1} karakter arasında olmalıdır.</value>
+  </data>
+  <data name="ItemHazardStillReferenced" xml:space="preserve">
+    <value>Tehlike silinemiyor: '{0}'.
+Bu tehlike tanımı, öğelere atanmış.</value>
+  </data>
+  <data name="ItemHazardWarningTextLengthError" xml:space="preserve">
+    <value>Tehlike Mesaj Metni {0} ve {1} karakter arasında bir uzunlukta olmalıdır.</value>
+  </data>
+  <data name="ItemIDDoesNotExist" xml:space="preserve">
+    <value>Öğe Kimliği, öğe listesinde bulunmuyor.</value>
+  </data>
+  <data name="ItemNameDiffers" xml:space="preserve">
+    <value>Öğe adı, öğe listesiyle eşleşmiyor.</value>
+  </data>
+  <data name="ItemsToRefill" xml:space="preserve">
+    <value>Yeniden doldurulacak öğeler</value>
+  </data>
+  <data name="ItemUnitOfMeasureEditDialogTitle" xml:space="preserve">
+    <value>Öğe Ölçü Birimi Düzenleme</value>
+  </data>
+  <data name="ItemUnitOfMeasureEditTableDescription" xml:space="preserve">
+    <value>Öğe Ölçü Birimi</value>
+  </data>
+  <data name="ItemUnitOfMeasureLengthError" xml:space="preserve">
+    <value>Öğe Ölçü Birimi, {0} ile {1} karakter arasında olmalıdır.</value>
+  </data>
+  <data name="ItemUOMStillReferenced" xml:space="preserve">
+    <value>Ölçü Birimi düzenlenemiyor veya silinemiyor: '{0}'.
+Ölçü Birimi, öğelere atanmış.</value>
+  </data>
+  <data name="January" xml:space="preserve">
+    <value>Ocak</value>
+  </data>
+  <data name="July" xml:space="preserve">
+    <value>Temmuz</value>
+  </data>
+  <data name="June" xml:space="preserve">
+    <value>Haziran</value>
+  </data>
+  <data name="Label" xml:space="preserve">
+    <value>Etiket</value>
+  </data>
+  <data name="Last" xml:space="preserve">
+    <value>Son</value>
+    <comment>as in "the last tuesday in the month"</comment>
+  </data>
+  <data name="Last24hours" xml:space="preserve">
+    <value>Son 24 saat</value>
+  </data>
+  <data name="Last30days" xml:space="preserve">
+    <value>Son 30 gün</value>
+  </data>
+  <data name="Last4WeeksToSun" xml:space="preserve">
+    <value>Son Pazar gününe kadar son 4 hafta</value>
+  </data>
+  <data name="Last7days" xml:space="preserve">
+    <value>Son 7 gün</value>
+  </data>
+  <data name="Lastfullday" xml:space="preserve">
+    <value>Son tüm gün</value>
+  </data>
+  <data name="Lastfullmonth" xml:space="preserve">
+    <value>Son tüm ay</value>
+  </data>
+  <data name="Lastfullweek" xml:space="preserve">
+    <value>Son tüm hafta</value>
+  </data>
+  <data name="lastRun" xml:space="preserve">
+    <value>Son Çalıştırma</value>
+  </data>
+  <data name="LastSuccess" xml:space="preserve">
+    <value>Son Başarı</value>
+  </data>
+  <data name="LastSundaytoToday" xml:space="preserve">
+    <value>Son Pazar gününden Bugüne (Bugün dahil)</value>
+  </data>
+  <data name="Lastyear" xml:space="preserve">
+    <value>Son yıl</value>
+  </data>
+  <data name="LastYearMTD" xml:space="preserve">
+    <value>Son yılın MTD'si (Ay Başından Bugüne)</value>
+  </data>
+  <data name="LastYearYTD" xml:space="preserve">
+    <value>Son yılın YTD'si (Yıl Başından Bugüne)</value>
+  </data>
+  <data name="LoadNetworkPrinterFailed" xml:space="preserve">
+    <value>Ağ yazıcıları yüklenemiyor</value>
+  </data>
+  <data name="Location" xml:space="preserve">
+    <value>Konum</value>
+    <comment>file path</comment>
+  </data>
+  <data name="March" xml:space="preserve">
+    <value>Mart</value>
+  </data>
+  <data name="May" xml:space="preserve">
+    <value>Mayıs</value>
+  </data>
+  <data name="Monday" xml:space="preserve">
+    <value>Pazartesi</value>
+  </data>
+  <data name="Monthtodate" xml:space="preserve">
+    <value>Bu ay</value>
+  </data>
+  <data name="MoveBatchReportsInfo" xml:space="preserve">
+    <value>Seçili Seri Raporu taşımak için lütfen Rapor'u istenen hedef klasörüne taşıyın. Seri Raporlar sadece Seri Raporlar klasörlerine taşınabilir.</value>
+  </data>
+  <data name="MoveSavedReportsInfo" xml:space="preserve">
+    <value>Seçili Kaydedilen Raporu taşımak için lütfen Rapor'u istenen hedef klasörüne taşıyın. Kaydedilen Raporlar sadece Kaydedilen Raporlar klasörlerine taşınabilir.</value>
+  </data>
+  <data name="NetworkPathNotAllowed" xml:space="preserve">
+    <value>Tesis seçeneği, ağ sürücüsüne kaydetmeye izin vermez, lütfen yerel sürücüde bir yol seçin.</value>
+  </data>
+  <data name="Never" xml:space="preserve">
+    <value>Hiçbir Zaman</value>
+    <comment>task never successfully run</comment>
+  </data>
+  <data name="newItemText" xml:space="preserve">
+    <value>Yeni</value>
+  </data>
+  <data name="NewStr" xml:space="preserve">
+    <value>Yeni</value>
+  </data>
+  <data name="Next30days" xml:space="preserve">
+    <value>Sonraki 30 gün</value>
+  </data>
+  <data name="Next31To60Days" xml:space="preserve">
+    <value>Sonraki 31 ila 60 gün</value>
+  </data>
+  <data name="Next61To90Days" xml:space="preserve">
+    <value>Sonraki 61 ila 90 gün</value>
+  </data>
+  <data name="Next91To365Days" xml:space="preserve">
+    <value>Sonraki 91 ila 365 gün</value>
+  </data>
+  <data name="nextRun" xml:space="preserve">
+    <value>Sonraki Çalıştırma</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>Hayır</value>
+  </data>
+  <data name="NoAccess" xml:space="preserve">
+    <value>{0} için erişim engellendi. Lütfen başka bir dizin seçin.</value>
+  </data>
+  <data name="NoArchiveID" xml:space="preserve">
+    <value>Tesis arşiv kimliği alınamıyor</value>
+  </data>
+  <data name="NoArea" xml:space="preserve">
+    <value>ALAN YOK</value>
+  </data>
+  <data name="NoDescription" xml:space="preserve">
+    <value>Lütfen bu planlanan yeniden dolum için bir tanımlama girin.</value>
+  </data>
+  <data name="noDevicesSelectedForReportText" xml:space="preserve">
+    <value>'{0}' raporu için seçili herhangi bir cihaz yok</value>
+  </data>
+  <data name="NoItemToRefill" xml:space="preserve">
+    <value>Lütfen yeniden doldurulacak en az bir öğe işaretleyin.</value>
+  </data>
+  <data name="NoLocalPrinter" xml:space="preserve">
+    <value>Varsayılan yazıcı bulunamadı. Raporlar yazdırılmayacak. Lütfen Konsol Sunucusu için bir varsayılan yazıcı ayarlayın.</value>
+  </data>
+  <data name="None" xml:space="preserve">
+    <value>Hiçbiri</value>
+  </data>
+  <data name="NonstockItemsOnly" xml:space="preserve">
+    <value>sadece stok dışı öğeler</value>
+  </data>
+  <data name="NoParloc" xml:space="preserve">
+    <value>Lütfen en az bir par konumu seçin.</value>
+  </data>
+  <data name="noPrintersConfiguredText" xml:space="preserve">
+    <value>Raporlar için yapılandırılmış herhangi bir yazıcı yok.  Döngü Sayım Raporları'nı, en az bir yazıcı yapılandırılana kadar kaydedemeyeceksiniz.</value>
+  </data>
+  <data name="NoSchedule" xml:space="preserve">
+    <value>Program Yok</value>
+  </data>
+  <data name="Not" xml:space="preserve">
+    <value>Değil</value>
+  </data>
+  <data name="NoTask" xml:space="preserve">
+    <value>Lütfen önce bir görev seçin</value>
+  </data>
+  <data name="NotEqualsFormat" xml:space="preserve">
+    <value>{0} öğesine eşit değildir</value>
+  </data>
+  <data name="November" xml:space="preserve">
+    <value>Kasım</value>
+  </data>
+  <data name="October" xml:space="preserve">
+    <value>Ekim</value>
+  </data>
+  <data name="ofthemonth" xml:space="preserve">
+    <value>ayın</value>
+  </data>
+  <data name="OKstring" xml:space="preserve">
+    <value>Tamam</value>
+  </data>
+  <data name="ordinalchar" xml:space="preserve">
+    <value>Yok</value>
+  </data>
+  <data name="Over90Days" xml:space="preserve">
+    <value>90 gün içinde</value>
+  </data>
+  <data name="Par" xml:space="preserve">
+    <value>Par</value>
+  </data>
+  <data name="PDF" xml:space="preserve">
+    <value>PDF</value>
+    <comment>file type</comment>
+  </data>
+  <data name="Pleaseenterdescription" xml:space="preserve">
+    <value>Lütfen bir tanımlama girin.</value>
+  </data>
+  <data name="Pleaseselectanotherdescription" xml:space="preserve">
+    <value>Lütfen başka bir tanımlama seçin. Bu tanımlama zaten kullanılıyor.</value>
+  </data>
+  <data name="Print" xml:space="preserve">
+    <value>yazdırılıyor</value>
+  </data>
+  <data name="Printer" xml:space="preserve">
+    <value>Yazıcı</value>
+  </data>
+  <data name="printerForSelectedReportNotSetText" xml:space="preserve">
+    <value>'{0}' raporu için bir Yazıcı seçmelisiniz</value>
+  </data>
+  <data name="PrintersNotSetup" xml:space="preserve">
+    <value>Yazıcılar, Konsol Tesis seçeneklerinde ayarlanmamış. Tüm raporlar, sunucu varsayılan Yazıcısında yazdırılacak.</value>
+  </data>
+  <data name="PrintSimple" xml:space="preserve">
+    <value>Yazdır</value>
+  </data>
+  <data name="PrintSimpleTooltip" xml:space="preserve">
+    <value>Bu raporu seçili Yazıcı'da yazdır ve bu ekranda kal</value>
+  </data>
+  <data name="Queued" xml:space="preserve">
+    <value>Sıraya Alındı</value>
+  </data>
+  <data name="RefillPoint" xml:space="preserve">
+    <value>Yeniden Doldurma Noktası</value>
+  </data>
+  <data name="RefillWhen" xml:space="preserve">
+    <value>Güncel değer şundan azsa yeniden doldur:</value>
+  </data>
+  <data name="report" xml:space="preserve">
+    <value>Rapor</value>
+  </data>
+  <data name="ReportHasBeenDeleted" xml:space="preserve">
+    <value>Seçili Rapor, Task Scheduler veya bir Konsol İstemcisi tarafından silinmiş ve düzenlenemez. 
+Bu Rapor, listeden kaldırılacak.</value>
+  </data>
+  <data name="reportNameLengthToLongText" xml:space="preserve">
+    <value>'{0}', şunun için izin verilen maksimum uzunluktan daha uzun: {1}</value>
+  </data>
+  <data name="reportNameLengthToShortText" xml:space="preserve">
+    <value>'{0}', şunun için izin verilen minimum uzunluktan daha kısa: {1}</value>
+  </data>
+  <data name="ReportQueued" xml:space="preserve">
+    <value>Rapor, şu anda {0} için sıraya alındı.</value>
+  </data>
+  <data name="Restock" xml:space="preserve">
+    <value>Dolum</value>
+  </data>
+  <data name="Retry" xml:space="preserve">
+    <value>Tekrar Dene</value>
+  </data>
+  <data name="Right_click_to_add" xml:space="preserve">
+    <value>Yeni Seri Klasör eklemek için "Seri Raporlar" Klasörüne sağ tıklayın</value>
+  </data>
+  <data name="Right_click_to_add_edit" xml:space="preserve">
+    <value>Yeni Seri Klasör eklemek, Seri Klasörü düzenlemek veya silmek için Klasör'e sağ tıklayın</value>
+  </data>
+  <data name="RPT" xml:space="preserve">
+    <value>RPT</value>
+    <comment>file type</comment>
+  </data>
+  <data name="RptFilenameEmpty" xml:space="preserve">
+    <value>Görüntüleme başarısız oldu - görüntülenecek tamamlanmış Rapor dosyası bulunamadı.</value>
+  </data>
+  <data name="RptFileUnavailable" xml:space="preserve">
+    <value> Görüntüleme başarısız oldu - Rapor dosyasına erişilemedi.</value>
+  </data>
+  <data name="Run" xml:space="preserve">
+    <value>çalışıyor</value>
+  </data>
+  <data name="Running" xml:space="preserve">
+    <value>Çalıştırma</value>
+  </data>
+  <data name="Saturday" xml:space="preserve">
+    <value>Cumartesi</value>
+  </data>
+  <data name="schedule" xml:space="preserve">
+    <value>Program</value>
+  </data>
+  <data name="SCHEDULE_AFTER1_AM" xml:space="preserve">
+    <value>Lütfen 01:00'dan sonra Bakım planlayın</value>
+  </data>
+  <data name="SchedulePast" xml:space="preserve">
+    <value>Bu seri rapor, geçmişte çalışacak şekilde programlanmış. Kaydetmeye devam etmek istiyor musunuz?</value>
+  </data>
+  <data name="Second" xml:space="preserve">
+    <value>İkinci</value>
+  </data>
+  <data name="SelectAtLeastOneReport" xml:space="preserve">
+    <value>Lütfen düzenlemek için en az bir rapor seçin.</value>
+  </data>
+  <data name="SelectDay" xml:space="preserve">
+    <value>Lütfen en az bir gün seçin.</value>
+  </data>
+  <data name="SelectMonth" xml:space="preserve">
+    <value>Lütfen en az bir ay seçin.</value>
+  </data>
+  <data name="September" xml:space="preserve">
+    <value>Eylül</value>
+  </data>
+  <data name="ServerDefault" xml:space="preserve">
+    <value>Sunucu Varsayılanı</value>
+  </data>
+  <data name="Seventh" xml:space="preserve">
+    <value>Yedinci</value>
+  </data>
+  <data name="Sixth" xml:space="preserve">
+    <value>Altıncı</value>
+  </data>
+  <data name="smtpBody" xml:space="preserve">
+    <value>&lt;HTML&gt;&lt;HEAD&gt;&lt;/HEAD&gt;&lt;BODY bgColor="#FFFFF0"&gt;&lt;p&gt;&lt;span style="font-family: Arial"&gt;Pyxis&lt;sup&gt;&amp;reg;&lt;/sup&gt; SupplyCenter&amp;trade; Rapor Servisi talebinizi tamamladı.  Raporunuz ektedir.&lt;/p&gt;&lt;/BODY&gt;&lt;/HTML&gt;</value>
+  </data>
+  <data name="smtpSubject" xml:space="preserve">
+    <value>Rapor Tamamlama Bildirimi</value>
+  </data>
+  <data name="Sort" xml:space="preserve">
+    <value>Sırala</value>
+  </data>
+  <data name="SortItemNotSelected" xml:space="preserve">
+    <value>Öğe sıralama seçilmedi.</value>
+  </data>
+  <data name="SpaceAtSpace" xml:space="preserve">
+    <value> saat: </value>
+  </data>
+  <data name="SpaceDaysAtSpace" xml:space="preserve">
+    <value> günlerinde, saat </value>
+  </data>
+  <data name="SpaceOfEveryMonthAtSpace" xml:space="preserve">
+    <value> her ay, şu saatte: </value>
+  </data>
+  <data name="SpaceOfEverySpace" xml:space="preserve">
+    <value> her </value>
+  </data>
+  <data name="SpaceOfSpace" xml:space="preserve">
+    <value> / </value>
+  </data>
+  <data name="SpaceWeeksOnSpace" xml:space="preserve">
+    <value> hafta şu gün: </value>
+  </data>
+  <data name="Starting" xml:space="preserve">
+    <value>başlangıç</value>
+    <comment>app is starting</comment>
+  </data>
+  <data name="status" xml:space="preserve">
+    <value>Durum</value>
+  </data>
+  <data name="StockAndNonstockItems" xml:space="preserve">
+    <value>stoklu ve stok dışı öğeler</value>
+  </data>
+  <data name="StockItemsOnly" xml:space="preserve">
+    <value>sadece stoklu öğeler</value>
+  </data>
+  <data name="StringRangeFormat" xml:space="preserve">
+    <value>{0} ile {1} arasındadır</value>
+  </data>
+  <data name="Sunday" xml:space="preserve">
+    <value>Pazar</value>
+  </data>
+  <data name="SupplyCenter" xml:space="preserve">
+    <value>SupplyCenter</value>
+    <comment>heading on messageboxes</comment>
+  </data>
+  <data name="supplyCenterText" xml:space="preserve">
+    <value>SupplyCenter</value>
+  </data>
+  <data name="SureDeleteTask" xml:space="preserve">
+    <value>Seçili görevi silmek istediğinizden emin misiniz?</value>
+  </data>
+  <data name="SureDisableTask" xml:space="preserve">
+    <value>Bu görevi devre dışı bırakmak istediğinizden emin misiniz?</value>
+  </data>
+  <data name="SureRunBackup" xml:space="preserve">
+    <value>Yedekleme'yi şimdi çalıştırmak istediğinizden emin misiniz?</value>
+  </data>
+  <data name="SureRunMaintenance" xml:space="preserve">
+    <value>Bakım'ı şimdi çalıştırmak istediğinizden emin misiniz?</value>
+  </data>
+  <data name="SureRunTask" xml:space="preserve">
+    <value>Seçili görevi çalıştırmak istediğinizden emin misiniz?</value>
+  </data>
+  <data name="SureToOverride" xml:space="preserve">
+    <value>Mevcut raporu geçersiz kılmak istediğinizden emin misiniz?</value>
+  </data>
+  <data name="System" xml:space="preserve">
+    <value>Sistem</value>
+  </data>
+  <data name="Third" xml:space="preserve">
+    <value>Üçüncü</value>
+  </data>
+  <data name="through" xml:space="preserve">
+    <value>aracılığıyla</value>
+  </data>
+  <data name="Thursday" xml:space="preserve">
+    <value>Perşembe</value>
+  </data>
+  <data name="ticiForSelectReportNotSetText" xml:space="preserve">
+    <value>'{0}' raporu için bir TICI Başına Döngü Sayımları ayarlamanız gerekiyor</value>
+  </data>
+  <data name="to" xml:space="preserve">
+    <value>ila</value>
+    <comment>as in a range from x to y</comment>
+  </data>
+  <data name="trySetTiciFailedText" xml:space="preserve">
+    <value>TICI'yı {0} olarak ayarlamak, {1} için "TICI Başına Döngü Sayımları"nın yeniden hesaplanmasını gerektirir
+ 
+{2}
+Devam etmek istiyor musunuz?</value>
+  </data>
+  <data name="Tuesday" xml:space="preserve">
+    <value>Salı</value>
+  </data>
+  <data name="UnitOfMeasure" xml:space="preserve">
+    <value>Ölçü Birimi</value>
+  </data>
+  <data name="Unknown" xml:space="preserve">
+    <value>Bilinmiyor</value>
+  </data>
+  <data name="unknownReportTitle" xml:space="preserve">
+    <value>Bilinmeyen Rapor Başlığı</value>
+  </data>
+  <data name="ViewingFailed" xml:space="preserve">
+    <value>Görüntüleme için rapor oluşturulamadı. Lütfen service_message tablosunu kontrol edin.</value>
+  </data>
+  <data name="WarnAudibleAlarm" xml:space="preserve">
+    <value>Sesli Uyarı Alarmı</value>
+  </data>
+  <data name="Wednesday" xml:space="preserve">
+    <value>Çarşamba</value>
+  </data>
+  <data name="Weekday" xml:space="preserve">
+    <value>Hafta İçi</value>
+  </data>
+  <data name="Weekdaylowercase" xml:space="preserve">
+    <value>hafta içi</value>
+  </data>
+  <data name="Weekendday" xml:space="preserve">
+    <value>Hafta sonu günü</value>
+  </data>
+  <data name="weeks" xml:space="preserve">
+    <value>hafta</value>
+  </data>
+  <data name="YearToDate" xml:space="preserve">
+    <value>Yıl başından bugüne kadar</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Evet</value>
+  </data>
+  <data name="List" xml:space="preserve">
+    <value>Liste</value>
+  </data>
+  <data name="DatabaseReadError" xml:space="preserve">
+    <value>Bir sistem hatası oluştu. Lütfen yardım için Teknik Destek birimiyle iletişim kurun.</value>
+  </data>
+  <data name="UniqueName" xml:space="preserve">
+    <value>Yinelenen bir ad mevcut. Lütfen benzersiz bir ad girin.</value>
+  </data>
+  <data name="InvaildEmail" xml:space="preserve">
+    <value>Geçersiz e-posta adresi. Lütfen geçerli bir e-posta adresi girin.</value>
+  </data>
+  <data name="CustomList" xml:space="preserve">
+    <value>Özel Liste</value>
+  </data>
+  <data name="DeleteEmailAddress" xml:space="preserve">
+    <value>Seçili e-posta adresini silmek istediğinizden emin misiniz?</value>
+  </data>
+  <data name="DeleteEmailList" xml:space="preserve">
+    <value>Seçili e-posta listesini silmek istediğinizden emin misiniz?</value>
+  </data>
+  <data name="SelectList" xml:space="preserve">
+    <value>Düzenlemeyi denemeden önce bir e-posta listesi seçmelisiniz.</value>
+  </data>
+  <data name="NoEmail" xml:space="preserve">
+    <value>E-posta göndermeden önce kullanıcı hesabınız için bir e-posta adresi girmelisiniz.</value>
+  </data>
+  <data name="addGLCode" xml:space="preserve">
+    <value>GL Kodu Ekle</value>
+  </data>
+  <data name="DuplicatedGLCode" xml:space="preserve">
+    <value>Bu GL Kodu zaten mevcut. Lütfen benzersiz bir GL Kodu seçin.</value>
+  </data>
+  <data name="editGLCode" xml:space="preserve">
+    <value>GL Kodunu Düzenle</value>
+  </data>
+  <data name="SaveWithoutEmail" xml:space="preserve">
+    <value>Raporun e-postayla gönderilmesi devre dışı bırakılacak  Mevcut kullanıcının sistemde e-posta adresi yok.  Raporu kaydedip e-postayı devre dışı bırakmaya devam etmek istiyor musunuz?</value>
+  </data>
+  <data name="Address" xml:space="preserve">
+    <value>Adres*</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Ad</value>
+  </data>
+  <data name="EmptyListName" xml:space="preserve">
+    <value>Lütfen liste için bir ad girin.</value>
+  </data>
+  <data name="EmptyEmailName" xml:space="preserve">
+    <value>Lütfen bu e-posta adresiyle ilişkilendirilecek bir ad girin.</value>
+  </data>
+  <data name="CostUpdateFailedDatabase" xml:space="preserve">
+    <value>{0} satırında güncelleme başarısız oldu, {1} Öğe Kimliği güncellenirken veritabanı hatası oluştu</value>
+  </data>
+  <data name="CostUpdateFailedItemId" xml:space="preserve">
+    <value>{0} satırında güncelleme başarısız oldu, Öğe Kimliği {1} bulunamadı</value>
+  </data>
+  <data name="CostUpdateFailedPrice" xml:space="preserve">
+    <value>{0} satırında güncelleme başarısız oldu, Öğe Kimliği {1} için geçersiz veya eksik fiyat</value>
+  </data>
+  <data name="CostUpdateSucceeded" xml:space="preserve">
+    <value>{0} Öğe Kimliği güncellemesi başarılı oldu</value>
+  </data>
+  <data name="EditEmail" xml:space="preserve">
+    <value>E-postayı Düzenle</value>
+  </data>
+  <data name="DeleteEmailAddressWarning" xml:space="preserve">
+    <value>Adres, bir seri rapora veya grup listesine atanmış.  Bu adresi silmek istediğinizden emin misiniz?</value>
+  </data>
+  <data name="DeleteEmailListWarning" xml:space="preserve">
+    <value>Grup listesi bir seri rapora atanmış.  Bu listeyi silmek istediğinizden emin misiniz?</value>
+  </data>
+  <data name="AllSelected" xml:space="preserve">
+    <value>[Tümü]</value>
+  </data>
+  <data name="NoneSelected" xml:space="preserve">
+    <value>[Hiçbiri Seçilmedi]</value>
+  </data>
+  <data name="NoProcedureAssigned" xml:space="preserve">
+    <value>[Atanmış Prosedür Yok]</value>
+  </data>
+  <data name="CycleCountReportFilenameEngAlternate" xml:space="preserve">
+    <value>Döngü Sayımı Öğeleri_en-UK</value>
+    <comment>filename for Intl A4 English Report, not used for non-English languages</comment>
+  </data>
+  <data name="CantCloseCrystalAppObject" xml:space="preserve">
+    <value>Crystal Uygulaması Nesnesi kapatılamıyor, yazdır işleri iptal edilmeye çalışılıyor.</value>
+  </data>
+  <data name="CantCloseCrystalAppObjectAfterKillingPrintJob" xml:space="preserve">
+    <value>Yazdırma işi iptal edildi.  Crystal Uygulaması Nesnesini kapatma işlemi hâlâ başarısız.</value>
+  </data>
+  <data name="CantCloseReport" xml:space="preserve">
+    <value>Rapor kapatılamıyor.</value>
+  </data>
+  <data name="ReportWillNotBeCopied" xml:space="preserve">
+    <value>Rapor kopyalanmayacak - hedef dizin, kapasitesinin %80'ine ulaştı. Rapora, varsayılan dizinden erişilebilir.</value>
+  </data>
+  <data name="ItemAliasAlreadyExistError" xml:space="preserve">
+    <value>{0} Öğe Takma Adı zaten mevcut.  Lütfen benzersiz bir Öğe Takma Adı girin.</value>
+  </data>
+  <data name="ItemAliasFieldCannotBeEmpty" xml:space="preserve">
+    <value>Öğe Takma Adı alanı boş olamaz.  Lütfen benzersiz bir Öğe Takma Adı girin.</value>
+  </data>
+  <data name="ItemCategoryAlreadyExistError" xml:space="preserve">
+    <value>{0} Öğe Kategorisi zaten mevcut.  Lütfen benzersiz bir Öğe Kategorisi adı girin.</value>
+  </data>
+  <data name="ItemClassAlreadyExistError" xml:space="preserve">
+    <value>{0} Öğe Sınıfı zaten mevcut.  Lütfen benzersiz bir Öğe Sınıfı adı girin.</value>
+  </data>
+  <data name="ItemClassFieldCannotBeEmpty" xml:space="preserve">
+    <value>Öğe Sınıfı alanı boş olamaz.  Lütfen benzersiz bir Öğe Sınıfı adı girin.</value>
+  </data>
+  <data name="HazardAlreadyExistError" xml:space="preserve">
+    <value>{0} Tehlike adı zaten mevcut. Lütfen benzersiz bir Tehlike adı girin.</value>
+  </data>
+  <data name="UnitAlreadyExistError" xml:space="preserve">
+    <value>Ölçü Birimi {0} zaten mevcut.  Lütfen benzersiz bir Ölçü Birimi girin.</value>
+  </data>
+  <data name="ColumnConstraintError" xml:space="preserve">
+    <value>Sütun Kısıtlama Hatası</value>
+  </data>
+  <data name="DefaultItemClass" xml:space="preserve">
+    <value>Varsayılan Öğe Sınıfı</value>
+  </data>
+  <data name="DuplicateExists" xml:space="preserve">
+    <value>Yinelenen Giriş Mevcut</value>
+  </data>
+  <data name="ReferenceError" xml:space="preserve">
+    <value>Referans Hatası</value>
+  </data>
+  <data name="ReferenceStillExists" xml:space="preserve">
+    <value>Referans Hâlâ Mevcut</value>
+  </data>
+  <data name="CannotFindFile" xml:space="preserve">
+    <value>{0} dosyası bulunamıyor</value>
+  </data>
+  <data name="Restart" xml:space="preserve">
+    <value>Yeniden Başlat</value>
+  </data>
+  <data name="TryToRestart" xml:space="preserve">
+    <value>Yeniden Başlatmayı Dene</value>
+  </data>
+  <data name="DuplicateDiscardReason" xml:space="preserve">
+    <value>Aynı ada sahip bir İptal etme nedeni zaten mevcut! Lütfen başka bir iptal etme nedeni girin.</value>
+  </data>
+  <data name="ConfirmToDeleteReason" xml:space="preserve">
+    <value>Bu nedeni silmek istediğinizden emin misiniz?</value>
+  </data>
+  <data name="TxTempCaseWillBeExpired" xml:space="preserve">
+    <value>{0}(Kimlik: {1}) öğesine ait bazı işlemler yarın temizlenecek. İşlemleri  kaybetmemek için {0} öğesini kalıcı bir hastaya veya kalıcı bir hastayla ilişkilendirilmiş bir vakaya aktarın.</value>
+  </data>
+  <data name="TxTempPatientWillBeExpired" xml:space="preserve">
+    <value>{0}(Kimlik: {1}) öğesine ait bazı işlemler yarın temizlenecek. Verileri kaybetmemek için {0} öğesini kalıcı bir hastayla birleştirin.</value>
+  </data>
+  <data name="RFIDItemUsed" xml:space="preserve">
+    <value>Seçili etiket, kullanılmış bir öğeyle ilişkilendirilmiş.  Etiket ilişkilendirmesi güncellenemez veya silinemez.</value>
+  </data>
+  <data name="RFIDAssociated" xml:space="preserve">
+    <value>İlişkilendirilmiş</value>
+  </data>
+  <data name="RFIDConfirmDelete" xml:space="preserve">
+    <value>Bu ilişkilendirmeyi silmek istediğinizden emin misiniz?</value>
+  </data>
+  <data name="RFIDInvalidTag" xml:space="preserve">
+    <value>Geçersiz RFID etiketi</value>
+  </data>
+  <data name="RFIDLinkScancode" xml:space="preserve">
+    <value>Girdiğiniz tarama kodu, seçili öğeyle ilişkilendirilmemiş. Tarama kodunu bu öğeyle şimdi ilişkilendirmek istiyor musunuz?</value>
+  </data>
+  <data name="RFIDScancodeNotFound" xml:space="preserve">
+    <value>Girdiğiniz tarama kodu bir öğeyle bağlantılı değil. Bağlantı kurmak istediğiniz bir öğe seçmek istiyor musunuz?</value>
+  </data>
+  <data name="RFIDConfirmSave" xml:space="preserve">
+    <value>Etiket ilişkilendirmesini kaydetmek istiyor musunuz?</value>
+  </data>
+  <data name="RFIDTagStatus" xml:space="preserve">
+    <value>|İlişkilendirilmemiş|İlişkilendirilmiş|İlişkilendirilmiş\Yüklü</value>
+  </data>
+  <data name="RFIDEnterItem" xml:space="preserve">
+    <value>Bir öğe Tarama Kodu tarayın veya Etiketle ilişkilendirecek bir öğe için Gözatın.</value>
+  </data>
+  <data name="RFIDEnterTag" xml:space="preserve">
+    <value>Başlamak için bir Etiket Kimliği tarayın veya yazın.</value>
+  </data>
+  <data name="RFIDEnterTagForItem" xml:space="preserve">
+    <value>Seçili öğeyle ilişkilendirilecek bir Etiket Kimliği tarayın veya yazın.</value>
+  </data>
+  <data name="RFIDEnterTracking" xml:space="preserve">
+    <value>İlişkilendirmeyi kaydetmeden önce, istenen izleme bilgilerini tarayın veya yazın.</value>
+  </data>
+  <data name="RFIDTagAssociated" xml:space="preserve">
+    <value>Etiket zaten ilişkilendirilmiş. Bir değeri değiştirmek için bu değeri güncelleyip kaydedin. Etiketin ilişkilendirmesini kaldırmak istiyorsanız İlişkilendirmeyi Temizle'ye tıklayın.</value>
+  </data>
+  <data name="RFIDTagIDInvalid" xml:space="preserve">
+    <value>Girilen Etiket Kimliği geçerli değil. Etiket Kimliğini yeniden girmeyi deneyin.</value>
+  </data>
+  <data name="RFIDTrackingMissing" xml:space="preserve">
+    <value>Etiket İlişkilendirici ilişkilendirmeyi kaydedemiyor çünkü gereken bilgiler eksik veya geçersiz. Kaydetmeden önce gereken bilgileri doldurun.</value>
+  </data>
+  <data name="RFIDTagLoaded" xml:space="preserve">
+    <value>Etiket zaten ilişkilendirilmiş ve yüklü. Bir öğe takibi değerini değiştirmek için bunu güncelleyip kaydedin.</value>
+  </data>
+  <data name="ItemID" xml:space="preserve">
+    <value>Öğe Kimliği</value>
+  </data>
+  <data name="ItemName" xml:space="preserve">
+    <value>Öğe Adı</value>
+  </data>
+  <data name="NoRecordFound" xml:space="preserve">
+    <value>Arama parametreleriyle eşleşen herhangi bir kayıt bulunamadı.</value>
+  </data>
+  <data name="RebuildFail" xml:space="preserve">
+    <value>Veritabanı yeniden oluşturulamadı</value>
+  </data>
+  <data name="RebuildOK" xml:space="preserve">
+    <value>Veritabanını başarıyla yeniden oluştur</value>
+  </data>
+  <data name="MaxFilterCharsExceeded" xml:space="preserve">
+    <value>Maksimum filtre karakteri sayısı ({0}) aşıldı.  Daha az filtre öğesi seçin.</value>
+  </data>
+  <data name="folderInUse" xml:space="preserve">
+    <value>Dizin başka bir program tarafından kullanılıyor. Lütfen daha sonra tekrar deneyin</value>
+  </data>
+  <data name="rename" xml:space="preserve">
+    <value>Yeniden Adlandır</value>
+  </data>
+  <data name="newFolder" xml:space="preserve">
+    <value>Yeni Klasör</value>
+  </data>
+  <data name="DeleteDefault" xml:space="preserve">
+    <value>XXX The selected domain is set as the default domain.  Please select a new default domain before deleting this domain.</value>
+  </data>
+  <data name="DeleteDomainWarning" xml:space="preserve">
+    <value>XXX Are you sure you want to delete this domain?</value>
+  </data>
+  <data name="DeleteLastDomain" xml:space="preserve">
+    <value>XXX This is the last domain for the Supply System. Deleting this domain will remove active directory registration for all Supply users.  All users will have to use their previous Supply user credentials and may require assistance to reset their password after this change. Do you want to delete this domain?</value>
+  </data>
+  <data name="DeleteUsersDomain" xml:space="preserve">
+    <value>XXX One or more users currently belong to this domain. Deleting the domain will invalidate their active directory registration and require them to re-register their accounts on another domain. Do you want to delete this domain?</value>
+  </data>
+  <data name="EmptyAccountID" xml:space="preserve">
+    <value>XXX Please enter the administrator account ID for the active directory domain.</value>
+  </data>
+  <data name="EmptyDomainName" xml:space="preserve">
+    <value>XXX Please enter the Active Directory domain name.</value>
+  </data>
+  <data name="UniqueDomain" xml:space="preserve">
+    <value>XXX The domain name entered already exists. Please enter a unique domain name.</value>
+  </data>
+  <data name="DomainDeletedSrvMsg" xml:space="preserve">
+    <value>XXX Domain {0} has been deleted from the system configuration.</value>
+  </data>
+  <data name="DomainRenamedSrvMsg" xml:space="preserve">
+    <value>XXX The domain {0} has been changed/renamed to domain {1}.</value>
+  </data>
+  <data name="InvalidLogin" xml:space="preserve">
+    <value>XXX The Active Directory user name and /or password you are attempting to register is invalid.</value>
+  </data>
+  <data name="AccountLocked" xml:space="preserve">
+    <value>XXX The Active Directory account you are attempting to register is locked. Contact your organization's network administrator for further assistance.</value>
+  </data>
+  <data name="ExpiredPassword" xml:space="preserve">
+    <value>XXX The password associated with the Active Directory account you are attempting to register is expired and must be changed.  Please use another network computer to change your password.</value>
+  </data>
+  <data name="InvalidAccount" xml:space="preserve">
+    <value>XXX The Active Directory account you are attempting to register is invalid. Contact your organization's network administrator for further assistance.</value>
+  </data>
+  <data name="EmptySystemAccountName" xml:space="preserve">
+    <value>XXX Please enter the system account name for this domain.</value>
+  </data>
+  <data name="InvalidSystemAccount" xml:space="preserve">
+    <value>XXX Please update the System Account for domain {0} to ensure proper Active Directory integration.</value>
+  </data>
+  <data name="LoginFailed" xml:space="preserve">
+    <value>XXX Login failed for user {0}@{1}. Exception : {2}</value>
+  </data>
+  <data name="PasswordUpdated" xml:space="preserve">
+    <value>XXX Domain password updated for domain user account {0}@{1}.</value>
+  </data>
+  <data name="UnableToConnectDomain" xml:space="preserve">
+    <value>XXX Unable to connect to the specified domain. Please verify that the domain name and system account credentials are entered correctly.</value>
+  </data>
+  <data name="ADNetworkError" xml:space="preserve">
+    <value>XXX Network error occurred while attempt to access the Active Directory server {0}.</value>
+  </data>
+  <data name="DisabledAccount" xml:space="preserve">
+    <value>XXX Attempt to login with disabled account:{0}@{1}</value>
+  </data>
+  <data name="ExpiredAccount" xml:space="preserve">
+    <value>XXX Attempt to login with expired account: {0}@{1}</value>
+  </data>
+  <data name="LockedAccount" xml:space="preserve">
+    <value>XXX Attempt to login with locked account: {0}@{1}</value>
+  </data>
+  <data name="UserRegistered" xml:space="preserve">
+    <value>XXX User ID {0} has successfully registered for Active Directory using account {1}@{2}.</value>
+  </data>
+  <data name="ExpiredADPassword" xml:space="preserve">
+    <value>XXX Attempt to login using an expired password. Active Directory account {0}@{1}.</value>
+  </data>
+  <data name="InvalidCredentials" xml:space="preserve">
+    <value>XXX Attempt to login using invalid credentials with Active Directory account {0}@{1}.</value>
+  </data>
+  <data name="EditDomain" xml:space="preserve">
+    <value>XXX Edit Domain</value>
+  </data>
+  <data name="EmptySystemPassword" xml:space="preserve">
+    <value>XXXPlease enter the system account password for this domain.</value>
+  </data>
+  <data name="ModifyDomainName" xml:space="preserve">
+    <value>XXXModifying the domain name will change the domain for all users currently associated with this domain. Do you wish to continue?</value>
+  </data>
+  <data name="DuplicateUser" xml:space="preserve">
+    <value>XXX The Active Directory account you are attempting to register is already associated with another Supply user’s account. An Active Directory account can only be associated with a single Supply user account</value>
+  </data>
+  <data name="ADCommunicationFailed" xml:space="preserve">
+    <value>XXX The system failed to access the Active Directory.   Contact your organization's network administrator for further assistance.</value>
+  </data>
+  <data name="CantDeleteLastDomain" xml:space="preserve">
+    <value>XXXAt least one Active Directory domain must be enabled at all times when the Active Directory only site option is turned on.  Please add an additional domain or turn off Active Directory only before attempting to delete this domain.</value>
+  </data>
+</root>

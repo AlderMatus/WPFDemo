@@ -1,0 +1,221 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="12.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{DBFF8E46-CC71-4619-B1A6-4D3C62148A8F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BBPyxisDB</RootNamespace>
+    <AssemblyName>BBPyxisDB</AssemblyName>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Sap.Data.SQLAnywhere.v4.5, Version=17.0.6.27574, Culture=neutral, PublicKeyToken=f222fc4333e0d400, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Shared\bin\Sap.Data.SQLAnywhere.v4.5.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ArchiveIndex.cs" />
+    <Compile Include="Areas.cs" />
+    <Compile Include="Attention.cs" />
+    <Compile Include="Banner.cs" />
+    <Compile Include="BillingTbl.cs" />
+    <Compile Include="BoardCoupling.cs" />
+    <Compile Include="BtnBoard.cs" />
+    <Compile Include="BtnStationOptions.cs" />
+    <Compile Include="Btx.cs" />
+    <Compile Include="CasesTransferred.cs" />
+    <Compile Include="Catalog.cs" />
+    <Compile Include="CommLog.cs" />
+    <Compile Include="CommRQ.cs" />
+    <Compile Include="CommXQ.cs" />
+    <Compile Include="ConnectedPvsClients.cs" />
+    <Compile Include="ConnectionID.cs" />
+    <Compile Include="ConsoleData.cs" />
+    <Compile Include="Count.cs" />
+    <Compile Include="DailySummary.cs" />
+    <Compile Include="DeviceBlockedMsgs.cs" />
+    <Compile Include="Devices.cs" />
+    <Compile Include="DiscardReason.cs" />
+    <Compile Include="Discrepancies.cs" />
+    <Compile Include="DiscResolutionReason.cs" />
+    <Compile Include="DoorAccessExclusion.cs" />
+    <Compile Include="DSImportRegistry.cs" />
+    <Compile Include="DwrType.cs" />
+    <Compile Include="Email.cs" />
+    <Compile Include="EmailList.cs" />
+    <Compile Include="EmailListToEmail.cs" />
+    <Compile Include="EmailOnlyUsers.cs" />
+    <Compile Include="HHDailySummary.cs" />
+    <Compile Include="HHDefaultStorageNames.cs" />
+    <Compile Include="HHDevices.cs" />
+    <Compile Include="HHDeviceStatus.cs" />
+    <Compile Include="HHMessageLog.cs" />
+    <Compile Include="HHShadowDevices.cs" />
+    <Compile Include="HHShadowDeviceStatus.cs" />
+    <Compile Include="HHShadowItems.cs" />
+    <Compile Include="HHShadowParLocation.cs" />
+    <Compile Include="HHShadowPocket.cs" />
+    <Compile Include="HHShadowScanCode.cs" />
+    <Compile Include="HHShadowStorageUnit.cs" />
+    <Compile Include="HHShadowSubUnit.cs" />
+    <Compile Include="HHShadowUOM.cs" />
+    <Compile Include="HHShadowUsers.cs" />
+    <Compile Include="HHStorageUnit.cs" />
+    <Compile Include="HHSubUnit.cs" />
+    <Compile Include="ItemAlias.cs" />
+    <Compile Include="ItemBillOnly.cs" />
+    <Compile Include="ItemCategory.cs" />
+    <Compile Include="ItemCharge.cs" />
+    <Compile Include="ItemClass.cs" />
+    <Compile Include="ItemConsign.cs" />
+    <Compile Include="ItemCost.cs" />
+    <Compile Include="ItemHazardDefs.cs" />
+    <Compile Include="ItemPrice.cs" />
+    <Compile Include="Items.cs" />
+    <Compile Include="DirPathTree.cs" />
+    <Compile Include="ExecutableTask.cs" />
+    <Compile Include="HHAutoRefill.cs" />
+    <Compile Include="HHAutoRefillToParloc.cs" />
+    <Compile Include="HHCommRq.cs" />
+    <Compile Include="HHParLocation.cs" />
+    <Compile Include="HHPocket.cs" />
+    <Compile Include="ItemStock.cs" />
+    <Compile Include="ItemsToItemCategory.cs" />
+    <Compile Include="ItemsToItemHazardDefs.cs" />
+    <Compile Include="ItemsToPickArea.cs" />
+    <Compile Include="KitItems.cs" />
+    <Compile Include="Kits.cs" />
+    <Compile Include="KitsToAreas.cs" />
+    <Compile Include="LastPocketAccess.cs" />
+    <Compile Include="LotSerial.cs" />
+    <Compile Include="MainClass.cs" />
+    <Compile Include="MergedPatients.cs" />
+    <Compile Include="MessageStrings.cs" />
+    <Compile Include="MonthlySummary.cs" />
+    <Compile Include="Msgtypes.cs" />
+    <Compile Include="NUnitLocation.cs" />
+    <Compile Include="NurseUnit.cs" />
+    <Compile Include="Overrides.cs" />
+    <Compile Include="PatientCodes.cs" />
+    <Compile Include="PatientHist.cs" />
+    <Compile Include="PatientInsurance.cs" />
+    <Compile Include="PatientOrGLCode.cs" />
+    <Compile Include="Patients.cs" />
+    <Compile Include="PatientTempPerm.cs" />
+    <Compile Include="PatientVisit.cs" />
+    <Compile Include="PendPocketAccess.cs" />
+    <Compile Include="PeripheralEquipment.cs" />
+    <Compile Include="PickArea.cs" />
+    <Compile Include="PickTicket.cs" />
+    <Compile Include="Pocket.cs" />
+    <Compile Include="PocketAccess.cs" />
+    <Compile Include="PocketPerishable.cs" />
+    <Compile Include="PrinterData.cs" />
+    <Compile Include="ProcCase.cs" />
+    <Compile Include="ProcCasePatient.cs" />
+    <Compile Include="ProcCaseToAreas.cs" />
+    <Compile Include="ProcedureEvents.cs" />
+    <Compile Include="ProcedureEventTimes.cs" />
+    <Compile Include="ProcMgmtPhysician.cs" />
+    <Compile Include="ProcMgmtProcedure.cs" />
+    <Compile Include="ProcMgmtService.cs" />
+    <Compile Include="ProcMgmtTx.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Refill.cs" />
+    <Compile Include="Report.cs" />
+    <Compile Include="ReportFilter.cs" />
+    <Compile Include="reportindexes.cs" />
+    <Compile Include="Reports.cs" />
+    <Compile Include="ReportTemp.cs" />
+    <Compile Include="RequestItem.cs" />
+    <Compile Include="RQMessageCount.cs" />
+    <Compile Include="ScanCode.cs" />
+    <Compile Include="ServiceLog.cs" />
+    <Compile Include="ServiceMessages.cs" />
+    <Compile Include="Site.cs" />
+    <Compile Include="SNCabinet.cs" />
+    <Compile Include="SNDrawer.cs" />
+    <Compile Include="SNPocket.cs" />
+    <Compile Include="SNPylon.cs" />
+    <Compile Include="StationAreaType.cs" />
+    <Compile Include="StationEvent.cs" />
+    <Compile Include="StationOptions.cs" />
+    <Compile Include="StationService.cs" />
+    <Compile Include="StnChassis.cs" />
+    <Compile Include="StnDrawer.cs" />
+    <Compile Include="SystemType.cs" />
+    <Compile Include="TaskSchedule.cs" />
+    <Compile Include="TblPyxOptions.cs" />
+    <Compile Include="Uom.cs" />
+    <Compile Include="UserAccessType.cs" />
+    <Compile Include="UserBioID.cs" />
+    <Compile Include="UserCat.cs" />
+    <Compile Include="UserComplience.cs" />
+    <Compile Include="UserDomains.cs" />
+    <Compile Include="UserEvent.cs" />
+    <Compile Include="UserHist.cs" />
+    <Compile Include="UserLoc.cs" />
+    <Compile Include="UserPatients.cs" />
+    <Compile Include="UserPref.cs" />
+    <Compile Include="UserPwHist.cs" />
+    <Compile Include="Users.cs" />
+    <Compile Include="UsersToUserCat.cs" />
+    <Compile Include="UserTemp.cs" />
+    <Compile Include="Vendor.cs" />
+    <Compile Include="XQMessageCount.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Carefusion.Supply.CSharpResource\Carefusion.Supply.CSharpResource.csproj">
+      <Project>{E7F993EA-1C22-425A-A3D8-F5143B4B3299}</Project>
+      <Name>Carefusion.Supply.CSharpResource</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <PropertyGroup>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

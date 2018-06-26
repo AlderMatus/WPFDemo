@@ -1,0 +1,1423 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Abort" xml:space="preserve">
+    <value>Interrompi</value>
+  </data>
+  <data name="Aborted" xml:space="preserve">
+    <value>Interrotto</value>
+  </data>
+  <data name="Activity" xml:space="preserve">
+    <value>Attività</value>
+  </data>
+  <data name="add" xml:space="preserve">
+    <value>Aggiungi</value>
+  </data>
+  <data name="addDirectory" xml:space="preserve">
+    <value>Aggiungi directory</value>
+  </data>
+  <data name="AddFormatToSave" xml:space="preserve">
+    <value>Scegliere un formato per lavorare.</value>
+  </data>
+  <data name="AddLocationToPrint" xml:space="preserve">
+    <value>Nelle opzioni Console Site non ci sono stampanti impostate e non c'è una stampante predefinita. Per stampare i rapporti è necessario impostare le stampanti.</value>
+  </data>
+  <data name="AddLocationToSave" xml:space="preserve">
+    <value>Nelle opzioni Console Site non ci sono ubicazioni di esportazione impostate. Per esportare i rapporti è necessario impostare le ubicazioni.</value>
+  </data>
+  <data name="addPrinter" xml:space="preserve">
+    <value>Aggiungi stampante</value>
+  </data>
+  <data name="After" xml:space="preserve">
+    <value>Dopo</value>
+  </data>
+  <data name="Aftercurrentdate" xml:space="preserve">
+    <value>Date future incluso oggi</value>
+  </data>
+  <data name="AlarmSilent" xml:space="preserve">
+    <value>Muto</value>
+  </data>
+  <data name="AlarmSpeech" xml:space="preserve">
+    <value>Voce</value>
+  </data>
+  <data name="AlarmTone" xml:space="preserve">
+    <value>Tono</value>
+  </data>
+  <data name="Alias" xml:space="preserve">
+    <value>Alias</value>
+  </data>
+  <data name="All" xml:space="preserve">
+    <value>Tutti</value>
+  </data>
+  <data name="AllDatesFromTomorrow" xml:space="preserve">
+    <value>Dopo oggi</value>
+  </data>
+  <data name="AllDatesToYesterday" xml:space="preserve">
+    <value>Prima di oggi</value>
+  </data>
+  <data name="andwithspace" xml:space="preserve">
+    <value> e </value>
+  </data>
+  <data name="April" xml:space="preserve">
+    <value>Aprile</value>
+  </data>
+  <data name="Ascending" xml:space="preserve">
+    <value>Crescente</value>
+  </data>
+  <data name="August" xml:space="preserve">
+    <value>Agosto</value>
+  </data>
+  <data name="AutoRefill" xml:space="preserve">
+    <value>Ricarica automatica</value>
+  </data>
+  <data name="BadEndDate" xml:space="preserve">
+    <value>Immettere una data uguale o successiva alla data di inizio.</value>
+  </data>
+  <data name="BadGroupOrSort" xml:space="preserve">
+    <value>La casella {0} {1} e {2} sono simili. Confermare di volere effettuare questa selezione.</value>
+  </data>
+  <data name="BadPrice" xml:space="preserve">
+    <value>Formato decimale errato. Deve essere XXXXXXXXX.ZZZZ</value>
+  </data>
+  <data name="BadStartTime" xml:space="preserve">
+    <value>Immettere una data di inizio futura.</value>
+  </data>
+  <data name="BatchReport" xml:space="preserve">
+    <value>rapporto programmato</value>
+  </data>
+  <data name="Before" xml:space="preserve">
+    <value>Prima di</value>
+  </data>
+  <data name="Beforecurrentdate" xml:space="preserve">
+    <value>Date trascorse incluso oggi</value>
+  </data>
+  <data name="BlankNode" xml:space="preserve">
+    <value>Il nome della directory non può essere vuoto.</value>
+  </data>
+  <data name="BothNetworkAndLocalPrinterFailed" xml:space="preserve">
+    <value>Errore di caricamento stampante locale e stampante di rete.</value>
+  </data>
+  <data name="Calendar1stHalf" xml:space="preserve">
+    <value>Calendario prima metà</value>
+  </data>
+  <data name="Calendar1stQtr" xml:space="preserve">
+    <value>Calendario primo trimestre</value>
+  </data>
+  <data name="Calendar2ndHalf" xml:space="preserve">
+    <value>Calendario seconda metà</value>
+  </data>
+  <data name="Calendar2ndQtr" xml:space="preserve">
+    <value>Calendario secondo trimestre</value>
+  </data>
+  <data name="Calendar3rdQtr" xml:space="preserve">
+    <value>Calendario terzo trimestre</value>
+  </data>
+  <data name="Calendar4thQtr" xml:space="preserve">
+    <value>Calendario quarto trimestre</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Annulla</value>
+  </data>
+  <data name="cannotAddDirectory" xml:space="preserve">
+    <value>Impossibile aggiungere una nuova directory. Riprovare.</value>
+  </data>
+  <data name="cannotDeleteFilters" xml:space="preserve">
+    <value>Impossibile eliminare i filtri di questo rapporto programmato</value>
+  </data>
+  <data name="cannotDeleteReport" xml:space="preserve">
+    <value>Impossibile eliminare il rapporto.</value>
+  </data>
+  <data name="CannotDeleteSaved" xml:space="preserve">
+    <value>Il rapporto salvato non può essere eliminato.</value>
+  </data>
+  <data name="cannotDeleteSchedule" xml:space="preserve">
+    <value>Impossibile eliminare la pianificazione di questo rapporto programmato.</value>
+  </data>
+  <data name="CannotEnableTask" xml:space="preserve">
+    <value>Impossibile abilitare questa attività perché è un'attività da eseguire una sola volta la cui data di inizio è trascorsa. Per ripianificarla per il futuro, modificare l'attività e impostare la data di inizio nel futuro, quindi abilitarla.</value>
+  </data>
+  <data name="cannotFindXMLRepTemplate" xml:space="preserve">
+    <value>Impossibile trovare il file ReportTemplateData.xml. Contattare il centro di assistenza.</value>
+  </data>
+  <data name="cannotMoveReport" xml:space="preserve">
+    <value>Impossibile spostare i rapporti selezionati in questa ubicazione.</value>
+  </data>
+  <data name="CannotQReport" xml:space="preserve">
+    <value>Impossibile mettere in coda i rapporti per {0}.</value>
+  </data>
+  <data name="Category" xml:space="preserve">
+    <value>Categoria</value>
+  </data>
+  <data name="CDMExist" xml:space="preserve">
+    <value>Questo numero CDM esiste già</value>
+  </data>
+  <data name="CDMInvalidChars" xml:space="preserve">
+    <value>Il numero CDM contiene caratteri non validi.</value>
+  </data>
+  <data name="CDMMissing" xml:space="preserve">
+    <value>Valore CDM mancante</value>
+  </data>
+  <data name="ChangeItemClassQuestion" xml:space="preserve">
+    <value>Se si modifica la classe articolo, questa verrà modificata per tutti gli articoli. Continuare?</value>
+  </data>
+  <data name="ClassName" xml:space="preserve">
+    <value>Nome classe</value>
+  </data>
+  <data name="CloseNoSave" xml:space="preserve">
+    <value>La configurazione modificata non è stata salvata. Uscire?</value>
+  </data>
+  <data name="comment" xml:space="preserve">
+    <value>Commento</value>
+  </data>
+  <data name="Completed" xml:space="preserve">
+    <value>Completato</value>
+  </data>
+  <data name="configuredPrinterNotFoundText" xml:space="preserve">
+    <value>Impossibile trovare la stampante assegnata al rapporto {0}. Prima di salvare le modifiche al rapporto è necessario selezionare una nuova stampante.</value>
+  </data>
+  <data name="confirmBatchReportDelete" xml:space="preserve">
+    <value>Eliminare il rapporto programmato selezionato?</value>
+  </data>
+  <data name="confirmDirectoryDelete" xml:space="preserve">
+    <value>Eliminare la directory?</value>
+  </data>
+  <data name="ConfirmReportDelete" xml:space="preserve">
+    <value>Eliminare i rapporti selezionati?</value>
+  </data>
+  <data name="confirmReportDeleteText" xml:space="preserve">
+    <value>Eliminare il rapporto programmato '{0}'?
+
+Nota: questa eliminazione non verrà effettuata fino a che non si sceglie OK.</value>
+  </data>
+  <data name="CriticalLow" xml:space="preserve">
+    <value>Livello critico basso</value>
+  </data>
+  <data name="CSV" xml:space="preserve">
+    <value>CSV</value>
+    <comment>file type</comment>
+  </data>
+  <data name="CycleCountReportFilename" xml:space="preserve">
+    <value>Articoli di cui eseguire il conteggio cicli_en-US</value>
+  </data>
+  <data name="DailyAtSpace" xml:space="preserve">
+    <value>Giornalmente alle </value>
+  </data>
+  <data name="DatabaseCastError" xml:space="preserve">
+    <value>Si è verificato un errore cast del database durante l'accesso alla tabella {0}: {1}</value>
+  </data>
+  <data name="DatabaseError" xml:space="preserve">
+    <value>Sì è verificato un errore durante il salvataggio del rapporto nel database. Vedere la tabella service_message.</value>
+  </data>
+  <data name="DataTableEditCancelChanges" xml:space="preserve">
+    <value>Sono state apportate modifiche a {0}. Annullare?</value>
+  </data>
+  <data name="DataTableEditIllegalCharactersWarning" xml:space="preserve">
+    <value>{0} sono caratteri non validi per {1}</value>
+  </data>
+  <data name="date" xml:space="preserve">
+    <value>Data</value>
+  </data>
+  <data name="DateAfterFormat" xml:space="preserve">
+    <value>dopo {0}</value>
+  </data>
+  <data name="DateBeforeFormat" xml:space="preserve">
+    <value>prima {0}</value>
+  </data>
+  <data name="DateFilterErr" xml:space="preserve">
+    <value>Rapporto di ricarica filtrato sulla data; operazione non ammessa</value>
+  </data>
+  <data name="DateRangeFormat" xml:space="preserve">
+    <value>da {0} a {1}</value>
+  </data>
+  <data name="Day" xml:space="preserve">
+    <value>Giorno</value>
+  </data>
+  <data name="Daylowercase" xml:space="preserve">
+    <value>giorno</value>
+  </data>
+  <data name="days" xml:space="preserve">
+    <value>giorni</value>
+  </data>
+  <data name="daysprior31to60" xml:space="preserve">
+    <value>da 31 a 60 giorni prima</value>
+  </data>
+  <data name="daysprior61to90" xml:space="preserve">
+    <value>da 61 a 90 giorni prima</value>
+  </data>
+  <data name="December" xml:space="preserve">
+    <value>Dicembre</value>
+  </data>
+  <data name="DefaultDirNotSetup" xml:space="preserve">
+    <value>La directory predefinita di Client Console non è impostata. Impostare una directory predefinita dalla finestra di dialogo Opzioni sito.</value>
+  </data>
+  <data name="defaultHybridAbcCalculationTaskName" xml:space="preserve">
+    <value>Operazione calcolo Hybrid Abc</value>
+  </data>
+  <data name="DefaultPrinterNotFound" xml:space="preserve">
+    <value>Stampante predefinita non trovata. Stampa non riuscita.</value>
+  </data>
+  <data name="delete" xml:space="preserve">
+    <value>Elimina</value>
+  </data>
+  <data name="DeleteDirectory" xml:space="preserve">
+    <value>Elimina directory</value>
+  </data>
+  <data name="Descending" xml:space="preserve">
+    <value>Decrescente</value>
+  </data>
+  <data name="description" xml:space="preserve">
+    <value>Descrizione</value>
+  </data>
+  <data name="destination" xml:space="preserve">
+    <value>Destinazione</value>
+  </data>
+  <data name="dirContainsBatchReports" xml:space="preserve">
+    <value>La directory contiene rapporti programmati. Eliminarli o spostare tutti i file in un'altra directory prima di effettuare l'eliminazione.</value>
+  </data>
+  <data name="dirExists" xml:space="preserve">
+    <value>Questo nome di directory esiste già. Riprovare.</value>
+  </data>
+  <data name="dirUnavailable" xml:space="preserve">
+    <value>Directory di destinazione non disponibile. I rapporti selezionati non possono essere spostati in questa ubicazione.</value>
+  </data>
+  <data name="Disabled" xml:space="preserve">
+    <value>Disabilitato</value>
+  </data>
+  <data name="DupDescription" xml:space="preserve">
+    <value>La descrizione attività esiste già. Immettere una descrizione univoca per la ricarica pianificata.</value>
+  </data>
+  <data name="DuplicateDefault" xml:space="preserve">
+    <value>Impostazioni predefinite duplicate</value>
+  </data>
+  <data name="DuplicateDescription" xml:space="preserve">
+    <value>La descrizione della directory esiste già. Scegliere una descrizione univoca.</value>
+  </data>
+  <data name="DuplicatedPrinterDescription" xml:space="preserve">
+    <value>La descrizione della stampante esiste già. Scegliere una descrizione univoca.</value>
+  </data>
+  <data name="DuplicatePath" xml:space="preserve">
+    <value>Il percorso della directory esiste già. Scegliere un percorso univoco.</value>
+  </data>
+  <data name="edit" xml:space="preserve">
+    <value>Modifica</value>
+  </data>
+  <data name="editDirectory" xml:space="preserve">
+    <value>Modifica directory</value>
+  </data>
+  <data name="editPrinter" xml:space="preserve">
+    <value>Modifica stampante</value>
+  </data>
+  <data name="EmailFooterDisclaimer" xml:space="preserve">
+    <value>Le informazioni contenute nel presente messaggio sono private, confidenziali e destinate solo e esclusivamente ai destinatari indicati. Qualora questa comunicazione dovesse esservi pervenuta per errore siete pregati di avvisarci subito via e-mail e di eliminare il messaggio. Qualsiasi altro utilizzo di questo messaggio da parte di persona diversa dal destinatario non è consentito.</value>
+  </data>
+  <data name="EmailNoReply" xml:space="preserve">
+    <value>Questo è un messaggio e-mail generato automaticamente. Non rispondere a questo messaggio.</value>
+  </data>
+  <data name="EmailSendFail" xml:space="preserve">
+    <value>Impossibile inviare l'e-mail. Contattare l'amministratore di sistema Pyxis. </value>
+  </data>
+  <data name="EmailSendSuccess" xml:space="preserve">
+    <value>Messaggio e-mail inviato correttamente.</value>
+  </data>
+  <data name="EmptyCostCenter" xml:space="preserve">
+    <value>Centro di costo vuoto</value>
+  </data>
+  <data name="EndTimeAfterStart" xml:space="preserve">
+    <value>Immettere un'ora di fine precedente all'ora di inizio oppure selezionare "nessuna ora di fine".</value>
+  </data>
+  <data name="EndTimePast" xml:space="preserve">
+    <value>Immettere un'ora di fine nel futuro oppure selezionare "nessuna ora di fine".</value>
+  </data>
+  <data name="EnterNetworkDriveLetter" xml:space="preserve">
+    <value>Immettere la lettera dell'unità di rete (ad es.: N:, P:, ecc).</value>
+  </data>
+  <data name="EnvVarNotSetup" xml:space="preserve">
+    <value>Visualizzazione non riuscita. La directory Console Report non è impostata nell'ambiente di sistema.
+Contattare l'assistenza tecnica.</value>
+  </data>
+  <data name="EqualsFormat" xml:space="preserve">
+    <value>equivalente a {0}</value>
+  </data>
+  <data name="ErrorViewingReport" xml:space="preserve">
+    <value>Visualizzazione rapporto non riuscita, riprovare.</value>
+  </data>
+  <data name="EverySpace" xml:space="preserve">
+    <value>Ogni </value>
+  </data>
+  <data name="EXCEL" xml:space="preserve">
+    <value>EXCEL (97)</value>
+  </data>
+  <data name="existingReportNameConflictText" xml:space="preserve">
+    <value>'{0}' già in uso.</value>
+  </data>
+  <data name="existingScheduledTaskNameConflictText" xml:space="preserve">
+    <value>Esiste già un'attività pianificata denominata '{0}'. Ciò causerà un conflitto nella pianificazione del rapporto.</value>
+  </data>
+  <data name="Exiting" xml:space="preserve">
+    <value>chiusura in corso</value>
+    <comment>app is exiting execution</comment>
+  </data>
+  <data name="Export" xml:space="preserve">
+    <value>esportazione in corso</value>
+  </data>
+  <data name="ExportSimple" xml:space="preserve">
+    <value>Esporta</value>
+  </data>
+  <data name="ExportSimpleTooltip" xml:space="preserve">
+    <value>Esporta (invia per e-mail) questo rapporto all'ubicazione selezionata e resta su questa schermata</value>
+  </data>
+  <data name="Failed" xml:space="preserve">
+    <value>Non riuscito</value>
+  </data>
+  <data name="February" xml:space="preserve">
+    <value>Febbraio</value>
+  </data>
+  <data name="Fifth" xml:space="preserve">
+    <value>Quinto</value>
+  </data>
+  <data name="First" xml:space="preserve">
+    <value>Primo</value>
+  </data>
+  <data name="format" xml:space="preserve">
+    <value>Formato</value>
+  </data>
+  <data name="Fourth" xml:space="preserve">
+    <value>Quarto</value>
+  </data>
+  <data name="Friday" xml:space="preserve">
+    <value>Venerdì</value>
+  </data>
+  <data name="From" xml:space="preserve">
+    <value>Da</value>
+    <comment>as in a range from x to y</comment>
+  </data>
+  <data name="Group" xml:space="preserve">
+    <value>Gruppo</value>
+  </data>
+  <data name="GroupItemNotSelected" xml:space="preserve">
+    <value>Articolo gruppo non selezionato.</value>
+  </data>
+  <data name="HazardMsg" xml:space="preserve">
+    <value>Messaggio di pericolo</value>
+  </data>
+  <data name="HHListTooltip" xml:space="preserve">
+    <value>Le attività selezionate sono abilitate</value>
+  </data>
+  <data name="hybridAbcStartTimeInstructions" xml:space="preserve">
+    <value>Non...</value>
+  </data>
+  <data name="hybridAbcTaskNotDefinedText" xml:space="preserve">
+    <value>L'attività di calcolo Hybrid ABC non è stata configurata. I rapporti Conteggio cicli non saranno generati fino a che l'attività non viene configurata correttamente.
+
+Eseguire?</value>
+  </data>
+  <data name="HzrdName" xml:space="preserve">
+    <value>Nome pericolo</value>
+  </data>
+  <data name="IDS_MAILER_SMTP_BODY" xml:space="preserve">
+    <value>&lt;HTML&gt;&lt;HEAD&gt;&lt;/HEAD&gt;&lt;BODY bgColor="#FFFFF0"&gt;&lt;p&gt;&lt;span style="font-family: Arial"&gt; Pyxis&lt;sup&gt;&amp;reg;&lt;/sup&gt; SupplyCenter&amp;trade; Il servizio rapporti ha completato la richiesta. Report allegato.  &lt;/p&gt;&lt;/BODY&gt;&lt;/HTML&gt;</value>
+  </data>
+  <data name="IDS_MAILER_SMTP_SUBJECT" xml:space="preserve">
+    <value>Notifica completamento rapporti</value>
+  </data>
+  <data name="Ignore" xml:space="preserve">
+    <value>Ignora</value>
+  </data>
+  <data name="ImmediateBackup" xml:space="preserve">
+    <value>backup immediato</value>
+    <comment>perform a DB backup now</comment>
+  </data>
+  <data name="ImportDataFormatError" xml:space="preserve">
+    <value>ERRORE alla riga {0} per la colonna {1}, {2}</value>
+  </data>
+  <data name="ImportEnterFilePath" xml:space="preserve">
+    <value>immettere un percorso di file</value>
+  </data>
+  <data name="ImportFileNotFound" xml:space="preserve">
+    <value>File non trovato</value>
+  </data>
+  <data name="ImportInsertFailed" xml:space="preserve">
+    <value>NON RIUSCITO - inserire alla riga {0}</value>
+  </data>
+  <data name="ImportInsertSucceeded" xml:space="preserve">
+    <value>Riuscito - Inserimento di itemID {0} e costCenter {1}</value>
+  </data>
+  <data name="ImportUpdateFailed" xml:space="preserve">
+    <value>Non riuscito - Aggiornamento alla riga {0}</value>
+  </data>
+  <data name="ImportUpdateSucceeded" xml:space="preserve">
+    <value>Riuscito - Inserimento di itemID {0} e costCenter {1}</value>
+  </data>
+  <data name="InvalidCostCenter" xml:space="preserve">
+    <value>Il nome del centro di costo non può superare i 10 caratteri.</value>
+  </data>
+  <data name="InvalidDefaultValue" xml:space="preserve">
+    <value>Il valore predefinito può essere 0 o 1.</value>
+  </data>
+  <data name="InvalidNode" xml:space="preserve">
+    <value>Nome directory non valido.</value>
+  </data>
+  <data name="InvalidPath" xml:space="preserve">
+    <value>Percorso della directory non valido, sfogliare e inserire un percorso valido.</value>
+  </data>
+  <data name="InvalidSelection" xml:space="preserve">
+    <value>Selezione non valida</value>
+  </data>
+  <data name="Inventory" xml:space="preserve">
+    <value>Inventario</value>
+  </data>
+  <data name="ItemAliasCountError" xml:space="preserve">
+    <value>È stato già assegnato il numero massimo di alias ({0}).</value>
+  </data>
+  <data name="ItemAliasEditDialogTitle" xml:space="preserve">
+    <value>Modifica alias articolo per {0}</value>
+  </data>
+  <data name="ItemAliasEditTableDescription" xml:space="preserve">
+    <value>Alias articoli per articolo'{0}'</value>
+  </data>
+  <data name="ItemAliasLengthError" xml:space="preserve">
+    <value>Gli alias articoli devono essere compresi tra {0} e {1}.</value>
+  </data>
+  <data name="ItemAliasReferenced" xml:space="preserve">
+    <value>All'alias articolo '{0}' viene già fatto riferimento con l'articolo '{1}'.</value>
+  </data>
+  <data name="ItemCategoryEditDialogTitle" xml:space="preserve">
+    <value>Modifica categoria articolo</value>
+  </data>
+  <data name="ItemCategoryEditTableDescription" xml:space="preserve">
+    <value>Categorie articolo</value>
+  </data>
+  <data name="ItemCategoryLengthError" xml:space="preserve">
+    <value>La categoria articolo deve essere compresa tra {0} e {1} caratteri.</value>
+  </data>
+  <data name="ItemCategoryStillReferenced" xml:space="preserve">
+    <value>Impossibile eliminare la categoria articolo: '{0}'.
+La categoria è assegnata agli articoli.</value>
+  </data>
+  <data name="ItemClassCountError" xml:space="preserve">
+    <value>Il sistema non consente più di {0} classi di articoli.</value>
+  </data>
+  <data name="ItemClassEditDialogTitle" xml:space="preserve">
+    <value>Modifica classe articolo</value>
+  </data>
+  <data name="ItemClassEditTableDescription" xml:space="preserve">
+    <value>Classi articolo</value>
+  </data>
+  <data name="ItemClassNameLengthError" xml:space="preserve">
+    <value>I nomi di classe devono essere compresi tra {0} e {1} caratteri.</value>
+  </data>
+  <data name="ItemClassStillReferenced" xml:space="preserve">
+    <value>Impossibile eliminare la classe: '{0}'.
+La classe è assegnata agli articoli.</value>
+  </data>
+  <data name="ItemDefaultClass" xml:space="preserve">
+    <value>Classe predefinita. Può essere modificata ma non eliminata.</value>
+  </data>
+  <data name="ItemHazardEditDialogTitle" xml:space="preserve">
+    <value>Modifica definizione pericolo articolo</value>
+  </data>
+  <data name="ItemHazardEditTableDescription" xml:space="preserve">
+    <value>Definizioni pericolo articoli</value>
+  </data>
+  <data name="ItemHazardNameLengthError" xml:space="preserve">
+    <value>I nomi di pericolo devono essere compresi tra {0} e {1} caratteri.</value>
+  </data>
+  <data name="ItemHazardStillReferenced" xml:space="preserve">
+    <value>Impossibile eliminare il pericolo: '{0}'.
+La definizione di pericolo è assegnata agli articoli.</value>
+  </data>
+  <data name="ItemHazardWarningTextLengthError" xml:space="preserve">
+    <value>Il testo del messaggio di pericolo deve essere compreso tra {0} e {1} carattere.</value>
+  </data>
+  <data name="ItemIDDoesNotExist" xml:space="preserve">
+    <value>L'ID articolo non esiste nell'elenco articoli.</value>
+  </data>
+  <data name="ItemNameDiffers" xml:space="preserve">
+    <value>Il nome articolo non corrisponde all'elenco articoli.</value>
+  </data>
+  <data name="ItemsToRefill" xml:space="preserve">
+    <value>Articoli da ricaricare</value>
+  </data>
+  <data name="ItemUnitOfMeasureEditDialogTitle" xml:space="preserve">
+    <value>Modifica unità di misura articoli</value>
+  </data>
+  <data name="ItemUnitOfMeasureEditTableDescription" xml:space="preserve">
+    <value>Unità di misura articoli</value>
+  </data>
+  <data name="ItemUnitOfMeasureLengthError" xml:space="preserve">
+    <value>L'unità di misura articoli deve essere compresa tra {0} e {1} caratteri.</value>
+  </data>
+  <data name="ItemUOMStillReferenced" xml:space="preserve">
+    <value>Impossibile modificare o eliminare l'unità di misura: '{0}'.
+L'unità di misura è assegnata agli articoli.</value>
+  </data>
+  <data name="January" xml:space="preserve">
+    <value>Gennaio</value>
+  </data>
+  <data name="July" xml:space="preserve">
+    <value>Luglio</value>
+  </data>
+  <data name="June" xml:space="preserve">
+    <value>Giugno</value>
+  </data>
+  <data name="Label" xml:space="preserve">
+    <value>Etichetta</value>
+  </data>
+  <data name="Last" xml:space="preserve">
+    <value>Ultimo</value>
+    <comment>as in "the last tuesday in the month"</comment>
+  </data>
+  <data name="Last24hours" xml:space="preserve">
+    <value>Ultime 24 ore</value>
+  </data>
+  <data name="Last30days" xml:space="preserve">
+    <value>Ultimi 30 giorni</value>
+  </data>
+  <data name="Last4WeeksToSun" xml:space="preserve">
+    <value>Ultime 4 settimane fino a domenica scorsa</value>
+  </data>
+  <data name="Last7days" xml:space="preserve">
+    <value>Ultimi 7 giorni</value>
+  </data>
+  <data name="Lastfullday" xml:space="preserve">
+    <value>Ultimo giorno intero</value>
+  </data>
+  <data name="Lastfullmonth" xml:space="preserve">
+    <value>Ultimo mese intero</value>
+  </data>
+  <data name="Lastfullweek" xml:space="preserve">
+    <value>Ultima settimana intera</value>
+  </data>
+  <data name="lastRun" xml:space="preserve">
+    <value>Ultima esecuzione</value>
+  </data>
+  <data name="LastSuccess" xml:space="preserve">
+    <value>Ultima operazione completata correttamente</value>
+  </data>
+  <data name="LastSundaytoToday" xml:space="preserve">
+    <value>Dall'ultima domenica a oggi (compreso)</value>
+  </data>
+  <data name="Lastyear" xml:space="preserve">
+    <value>Anno scorso</value>
+  </data>
+  <data name="LastYearMTD" xml:space="preserve">
+    <value>MTD scorso anno</value>
+  </data>
+  <data name="LastYearYTD" xml:space="preserve">
+    <value>YTD scorso anno</value>
+  </data>
+  <data name="LoadNetworkPrinterFailed" xml:space="preserve">
+    <value>Impossibile caricare le stampanti di rete</value>
+  </data>
+  <data name="Location" xml:space="preserve">
+    <value>Ubicazione</value>
+    <comment>file path</comment>
+  </data>
+  <data name="March" xml:space="preserve">
+    <value>Marzo</value>
+  </data>
+  <data name="May" xml:space="preserve">
+    <value>Maggio</value>
+  </data>
+  <data name="Monday" xml:space="preserve">
+    <value>Lunedì</value>
+  </data>
+  <data name="Monthtodate" xml:space="preserve">
+    <value>Questo mese</value>
+  </data>
+  <data name="MoveBatchReportsInfo" xml:space="preserve">
+    <value>Per spostare il rapporto programmato selezionato, trascinarlo nella cartella di destinazione desiderata. I rapporti programmati possono essere spostati solo nelle cartelle dei rapporti programmati.</value>
+  </data>
+  <data name="MoveSavedReportsInfo" xml:space="preserve">
+    <value>Per spostare il rapporto salvato selezionato, trascinarlo nella cartella di destinazione desiderata. I rapporti salvati possono essere spostati solo nelle cartelle dei rapporti salvati.</value>
+  </data>
+  <data name="NetworkPathNotAllowed" xml:space="preserve">
+    <value>L'opzione del sito non consente il salvataggio nell'unità di rete, selezionare un percorso nell'unità locale.</value>
+  </data>
+  <data name="Never" xml:space="preserve">
+    <value>Mai</value>
+    <comment>task never successfully run</comment>
+  </data>
+  <data name="newItemText" xml:space="preserve">
+    <value>Nuovo</value>
+  </data>
+  <data name="NewStr" xml:space="preserve">
+    <value>Nuovo</value>
+  </data>
+  <data name="Next30days" xml:space="preserve">
+    <value>Prossimi 30 giorni</value>
+  </data>
+  <data name="Next31To60Days" xml:space="preserve">
+    <value>Nei prossimi 31 - 60 giorni</value>
+  </data>
+  <data name="Next61To90Days" xml:space="preserve">
+    <value>Nei prossimi 61 - 90 giorni</value>
+  </data>
+  <data name="Next91To365Days" xml:space="preserve">
+    <value>Nei prossimi 91 - 365 giorni</value>
+  </data>
+  <data name="nextRun" xml:space="preserve">
+    <value>Prossima esecuzione</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="NoAccess" xml:space="preserve">
+    <value>Accesso negato a {0}. Selezionare un'altra directory.</value>
+  </data>
+  <data name="NoArchiveID" xml:space="preserve">
+    <value>Impossibile ottenere l'ID dell'archivio del sito</value>
+  </data>
+  <data name="NoArea" xml:space="preserve">
+    <value>NESSUNA AREA</value>
+  </data>
+  <data name="NoDescription" xml:space="preserve">
+    <value>Immettere una descrizione di questa ricarica pianificata.</value>
+  </data>
+  <data name="noDevicesSelectedForReportText" xml:space="preserve">
+    <value>Non ci sono dispositivi selezionati per il rapporto '{0}'</value>
+  </data>
+  <data name="NoItemToRefill" xml:space="preserve">
+    <value>Selezionare almeno un articolo da ricaricare.</value>
+  </data>
+  <data name="NoLocalPrinter" xml:space="preserve">
+    <value>Stampante predefinita non trovata. I rapporti non verranno stampati. Impostare una stampante predefinita per Console Server.</value>
+  </data>
+  <data name="None" xml:space="preserve">
+    <value>Nessuno</value>
+  </data>
+  <data name="NonstockItemsOnly" xml:space="preserve">
+    <value>solo articoli non in scorta</value>
+  </data>
+  <data name="NoParloc" xml:space="preserve">
+    <value>Selezionare almeno un'ubicazione par.</value>
+  </data>
+  <data name="noPrintersConfiguredText" xml:space="preserve">
+    <value>Non ci sono stampanti configurate per i rapporti. Non sarà possibile salvare i rapporti Conteggio cicli fino a che non viene configurata almeno una stampante.</value>
+  </data>
+  <data name="NoSchedule" xml:space="preserve">
+    <value>Nessuna pianificazione</value>
+  </data>
+  <data name="Not" xml:space="preserve">
+    <value>Non</value>
+  </data>
+  <data name="NoTask" xml:space="preserve">
+    <value>Selezionare prima un'attività</value>
+  </data>
+  <data name="NotEqualsFormat" xml:space="preserve">
+    <value>non è uguale al {0}</value>
+  </data>
+  <data name="November" xml:space="preserve">
+    <value>Novembre</value>
+  </data>
+  <data name="October" xml:space="preserve">
+    <value>Ottobre</value>
+  </data>
+  <data name="ofthemonth" xml:space="preserve">
+    <value>del mese</value>
+  </data>
+  <data name="OKstring" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="ordinalchar" xml:space="preserve">
+    <value>N/A</value>
+  </data>
+  <data name="Over90Days" xml:space="preserve">
+    <value>Oltre 90 giorni</value>
+  </data>
+  <data name="Par" xml:space="preserve">
+    <value>Livello ottimale</value>
+  </data>
+  <data name="PDF" xml:space="preserve">
+    <value>PDF</value>
+    <comment>file type</comment>
+  </data>
+  <data name="Pleaseenterdescription" xml:space="preserve">
+    <value>Immettere una descrizione.</value>
+  </data>
+  <data name="Pleaseselectanotherdescription" xml:space="preserve">
+    <value>Selezionare un'altra descrizione. Questa descrizione è già in uso.</value>
+  </data>
+  <data name="Print" xml:space="preserve">
+    <value>stampa in corso</value>
+  </data>
+  <data name="Printer" xml:space="preserve">
+    <value>Stampante</value>
+  </data>
+  <data name="printerForSelectedReportNotSetText" xml:space="preserve">
+    <value>Selezionare una stampante per il rapporto '{0}'</value>
+  </data>
+  <data name="PrintersNotSetup" xml:space="preserve">
+    <value>Nelle opzioni Console Site non sono impostate le stampanti. Tutti i rapporti verranno inviati alla stampante predefinita del server.</value>
+  </data>
+  <data name="PrintSimple" xml:space="preserve">
+    <value>Stampa</value>
+  </data>
+  <data name="PrintSimpleTooltip" xml:space="preserve">
+    <value>Stampa questo rapporto sulla stampante selezionata e resta su questa schermata</value>
+  </data>
+  <data name="Queued" xml:space="preserve">
+    <value>In coda</value>
+  </data>
+  <data name="RefillPoint" xml:space="preserve">
+    <value>Punto di ricarica</value>
+  </data>
+  <data name="RefillWhen" xml:space="preserve">
+    <value>Ricarica quando livello corrente è inferiore a:</value>
+  </data>
+  <data name="report" xml:space="preserve">
+    <value>Rapporto</value>
+  </data>
+  <data name="ReportHasBeenDeleted" xml:space="preserve">
+    <value>Il rapporto selezionato è stato eliminato da Task Scheduler o da un Console Client e non può essere modificato. Il rapporto verrà rimosso dall'elenco.</value>
+  </data>
+  <data name="reportNameLengthToLongText" xml:space="preserve">
+    <value>'{0}' è maggiore della lunghezza massima consentita di: {1}</value>
+  </data>
+  <data name="reportNameLengthToShortText" xml:space="preserve">
+    <value>'{0}' è minore della lunghezza massima consentita di: {1}</value>
+  </data>
+  <data name="ReportQueued" xml:space="preserve">
+    <value>Rapporto messo in coda per {0}.</value>
+  </data>
+  <data name="Restock" xml:space="preserve">
+    <value>Ristoccaggio</value>
+  </data>
+  <data name="Retry" xml:space="preserve">
+    <value>Riprova</value>
+  </data>
+  <data name="Right_click_to_add" xml:space="preserve">
+    <value>Fare clic con il pulsante destro del mouse sulla cartella 'Rapporti programmati' per aggiungere una nuova cartella dei rapporti programmati.</value>
+  </data>
+  <data name="Right_click_to_add_edit" xml:space="preserve">
+    <value>Fare clic con il pulsante destro del mouse sulla cartella per aggiungere, modificare o eliminare una cartella dei rapporti programmati</value>
+  </data>
+  <data name="RPT" xml:space="preserve">
+    <value>RPT</value>
+    <comment>file type</comment>
+  </data>
+  <data name="RptFilenameEmpty" xml:space="preserve">
+    <value>Visualizzazione non riuscita - impossibile trovare il file Rapporti completato da visualizzare.</value>
+  </data>
+  <data name="RptFileUnavailable" xml:space="preserve">
+    <value> Visualizzazione non riuscita - Impossibile accedere al file Rapporti.</value>
+  </data>
+  <data name="Run" xml:space="preserve">
+    <value>in esecuzione</value>
+  </data>
+  <data name="Running" xml:space="preserve">
+    <value>In esecuzione</value>
+  </data>
+  <data name="Saturday" xml:space="preserve">
+    <value>Sabato</value>
+  </data>
+  <data name="schedule" xml:space="preserve">
+    <value>Pianificazione</value>
+  </data>
+  <data name="SCHEDULE_AFTER1_AM" xml:space="preserve">
+    <value>Pianificare la manutenzione dopo le ore 1 del mattino</value>
+  </data>
+  <data name="SchedulePast" xml:space="preserve">
+    <value>La pianificazione dell'esecuzione di questo rapporto programmato è trascorsa. Continuare con il salvataggio?</value>
+  </data>
+  <data name="Second" xml:space="preserve">
+    <value>Secondo</value>
+  </data>
+  <data name="SelectAtLeastOneReport" xml:space="preserve">
+    <value>Selezionare almeno u rapporto da modificare.</value>
+  </data>
+  <data name="SelectDay" xml:space="preserve">
+    <value>Selezionare un giorno.</value>
+  </data>
+  <data name="SelectMonth" xml:space="preserve">
+    <value>Selezionare un mese.</value>
+  </data>
+  <data name="September" xml:space="preserve">
+    <value>Settembre</value>
+  </data>
+  <data name="ServerDefault" xml:space="preserve">
+    <value>Valori predefiniti server</value>
+  </data>
+  <data name="Seventh" xml:space="preserve">
+    <value>Settimo</value>
+  </data>
+  <data name="Sixth" xml:space="preserve">
+    <value>Sesto</value>
+  </data>
+  <data name="smtpBody" xml:space="preserve">
+    <value>&lt;HTML&gt;&lt;HEAD&gt;&lt;/HEAD&gt;&lt;BODY bgColor="#FFFFF0"&gt;&lt;p&gt;&lt;span style="font-family: Arial"&gt; Pyxis&lt;sup&gt;&amp;reg;&lt;/sup&gt; SupplyCenter&amp;trade; Il servizio rapporti ha completato la richiesta. Report allegato.  &lt;/p&gt;&lt;/BODY&gt;&lt;/HTML&gt;</value>
+  </data>
+  <data name="smtpSubject" xml:space="preserve">
+    <value>Notifica completamento rapporti</value>
+  </data>
+  <data name="Sort" xml:space="preserve">
+    <value>Ordina</value>
+  </data>
+  <data name="SortItemNotSelected" xml:space="preserve">
+    <value>Ordina articolo non selezionato.</value>
+  </data>
+  <data name="SpaceAtSpace" xml:space="preserve">
+    <value> alle </value>
+  </data>
+  <data name="SpaceDaysAtSpace" xml:space="preserve">
+    <value> giorni alle </value>
+  </data>
+  <data name="SpaceOfEveryMonthAtSpace" xml:space="preserve">
+    <value> di ogni mese alle </value>
+  </data>
+  <data name="SpaceOfEverySpace" xml:space="preserve">
+    <value> di ogni </value>
+  </data>
+  <data name="SpaceOfSpace" xml:space="preserve">
+    <value> di </value>
+  </data>
+  <data name="SpaceWeeksOnSpace" xml:space="preserve">
+    <value> settimane il </value>
+  </data>
+  <data name="Starting" xml:space="preserve">
+    <value>inizia</value>
+    <comment>app is starting</comment>
+  </data>
+  <data name="status" xml:space="preserve">
+    <value>Stato</value>
+  </data>
+  <data name="StockAndNonstockItems" xml:space="preserve">
+    <value>articoli in scorta e non in scorta</value>
+  </data>
+  <data name="StockItemsOnly" xml:space="preserve">
+    <value>solo articoli in scorta</value>
+  </data>
+  <data name="StringRangeFormat" xml:space="preserve">
+    <value>è compreso tra {0} e {1}</value>
+  </data>
+  <data name="Sunday" xml:space="preserve">
+    <value>Domenica</value>
+  </data>
+  <data name="SupplyCenter" xml:space="preserve">
+    <value>SupplyCenter</value>
+    <comment>heading on messageboxes</comment>
+  </data>
+  <data name="supplyCenterText" xml:space="preserve">
+    <value>SupplyCenter</value>
+  </data>
+  <data name="SureDeleteTask" xml:space="preserve">
+    <value>Eliminare l'attività selezionata?</value>
+  </data>
+  <data name="SureDisableTask" xml:space="preserve">
+    <value>Disattivare questa attività?</value>
+  </data>
+  <data name="SureRunBackup" xml:space="preserve">
+    <value>Eseguire il backup ora?</value>
+  </data>
+  <data name="SureRunMaintenance" xml:space="preserve">
+    <value>Eseguire la manutenzione ora?</value>
+  </data>
+  <data name="SureRunTask" xml:space="preserve">
+    <value>Eseguire l'attività selezionata?</value>
+  </data>
+  <data name="SureToOverride" xml:space="preserve">
+    <value>Sovrascrivere il rapporto esistente?</value>
+  </data>
+  <data name="System" xml:space="preserve">
+    <value>Sistema</value>
+  </data>
+  <data name="Third" xml:space="preserve">
+    <value>Terzo</value>
+  </data>
+  <data name="through" xml:space="preserve">
+    <value>attraverso</value>
+  </data>
+  <data name="Thursday" xml:space="preserve">
+    <value>Giovedì</value>
+  </data>
+  <data name="ticiForSelectReportNotSetText" xml:space="preserve">
+    <value>Impostare un Conteggio cicli per TICI per il rapporto '{0}'</value>
+  </data>
+  <data name="to" xml:space="preserve">
+    <value>a</value>
+    <comment>as in a range from x to y</comment>
+  </data>
+  <data name="trySetTiciFailedText" xml:space="preserve">
+    <value>L'impostazione di TICI su {0} forzerà il ricalcolo di 'Conteggio cicli per TICI' per {1}
+ 
+{2}
+Continuare?</value>
+  </data>
+  <data name="Tuesday" xml:space="preserve">
+    <value>Martedì</value>
+  </data>
+  <data name="UnitOfMeasure" xml:space="preserve">
+    <value>Unità di misura</value>
+  </data>
+  <data name="Unknown" xml:space="preserve">
+    <value>Sconosciuto</value>
+  </data>
+  <data name="unknownReportTitle" xml:space="preserve">
+    <value>Titolo rapporto sconosciuto</value>
+  </data>
+  <data name="ViewingFailed" xml:space="preserve">
+    <value>Costruzione del rapporto per la visualizzazione non riuscita. Controllare la tabella service_message.</value>
+  </data>
+  <data name="WarnAudibleAlarm" xml:space="preserve">
+    <value>Avvertenza allarme udibile</value>
+  </data>
+  <data name="Wednesday" xml:space="preserve">
+    <value>Mercoledì</value>
+  </data>
+  <data name="Weekday" xml:space="preserve">
+    <value>Giorno della settimana</value>
+  </data>
+  <data name="Weekdaylowercase" xml:space="preserve">
+    <value>giorno della settimana</value>
+  </data>
+  <data name="Weekendday" xml:space="preserve">
+    <value>Giorno del fine settimana</value>
+  </data>
+  <data name="weeks" xml:space="preserve">
+    <value>settimane</value>
+  </data>
+  <data name="YearToDate" xml:space="preserve">
+    <value>Da inizio anno</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Sì</value>
+  </data>
+  <data name="List" xml:space="preserve">
+    <value>Elenco</value>
+  </data>
+  <data name="DatabaseReadError" xml:space="preserve">
+    <value>Sì è verificato un errore di sistema. Contattare l'assistenza tecnica.</value>
+  </data>
+  <data name="UniqueName" xml:space="preserve">
+    <value>È presente un nome duplicato. Immettere un nome univoco.</value>
+  </data>
+  <data name="InvaildEmail" xml:space="preserve">
+    <value>Indirizzo e-mail non valido. Immettere un indirizzo e-mail valido.</value>
+  </data>
+  <data name="CustomList" xml:space="preserve">
+    <value>Elenco personalizzato</value>
+  </data>
+  <data name="DeleteEmailAddress" xml:space="preserve">
+    <value>Eliminare l'indirizzo e-mail selezionato?</value>
+  </data>
+  <data name="DeleteEmailList" xml:space="preserve">
+    <value>Eliminare l'elenco e-mail selezionato?</value>
+  </data>
+  <data name="SelectList" xml:space="preserve">
+    <value>Selezionare un elenco e-mail prima di modificarlo.</value>
+  </data>
+  <data name="NoEmail" xml:space="preserve">
+    <value>Prima di inviare un messaggio e-mail è necessario inserire un indirizzo e-mail per l'account utente.</value>
+  </data>
+  <data name="addGLCode" xml:space="preserve">
+    <value>Aggiungi codice GL</value>
+  </data>
+  <data name="DuplicatedGLCode" xml:space="preserve">
+    <value>Questo codice GL Code esiste già. Scegliere un codice GL univoco.</value>
+  </data>
+  <data name="editGLCode" xml:space="preserve">
+    <value>Modifica codice GL</value>
+  </data>
+  <data name="SaveWithoutEmail" xml:space="preserve">
+    <value>L'invio dei rapporti via e-mail verrà disattivato. L'utente corrente non dispone di un indirizzo e-mail nel sistema. Continuare a salvare il rapporto e disattivare l'e-mail?</value>
+  </data>
+  <data name="Address" xml:space="preserve">
+    <value>Indirizzo*</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Nome</value>
+  </data>
+  <data name="EmptyListName" xml:space="preserve">
+    <value>Immettere un nome per l'elenco.</value>
+  </data>
+  <data name="EmptyEmailName" xml:space="preserve">
+    <value>Immettere un nome da associare all'indirizzo e-mail.</value>
+  </data>
+  <data name="CostUpdateFailedDatabase" xml:space="preserve">
+    <value>Aggiornamento non riuscito sulla riga {0}, errore di database durante l'aggiornamento di itemId {1}</value>
+  </data>
+  <data name="CostUpdateFailedItemId" xml:space="preserve">
+    <value>Aggiornamento non riuscito sulla riga {0}, itemId {1} non trovato</value>
+  </data>
+  <data name="CostUpdateFailedPrice" xml:space="preserve">
+    <value>Aggiornamento non riuscito sulla riga {0}, prezzo non valido o mancante per itemId {1}</value>
+  </data>
+  <data name="CostUpdateSucceeded" xml:space="preserve">
+    <value>Aggiornamento riuscito su itemId {0}</value>
+  </data>
+  <data name="EditEmail" xml:space="preserve">
+    <value>Modifica e-mail</value>
+  </data>
+  <data name="DeleteEmailAddressWarning" xml:space="preserve">
+    <value>L'indirizzo è assegnato a un rapporto programmato o a un elenco di gruppi. Eliminare l'indirizzo?</value>
+  </data>
+  <data name="DeleteEmailListWarning" xml:space="preserve">
+    <value>L'elenco di gruppi è assegnati a un rapporto programmato. Eliminare l'elenco?</value>
+  </data>
+  <data name="AllSelected" xml:space="preserve">
+    <value>[Tutti]</value>
+  </data>
+  <data name="NoneSelected" xml:space="preserve">
+    <value>[Nessuna selezione]</value>
+  </data>
+  <data name="NoProcedureAssigned" xml:space="preserve">
+    <value>[Nessun intervento medico assegnato]</value>
+  </data>
+  <data name="CycleCountReportFilenameEngAlternate" xml:space="preserve">
+    <value>Articoli di cui eseguire il conteggio cicli_en-UK</value>
+    <comment>filename for Intl A4 English Report, not used for non-English languages</comment>
+  </data>
+  <data name="CantCloseCrystalAppObject" xml:space="preserve">
+    <value>Impossibile chiudere l'oggetto Crystal App; tentativo di annullare tutte le stampe.</value>
+  </data>
+  <data name="CantCloseCrystalAppObjectAfterKillingPrintJob" xml:space="preserve">
+    <value>Stampe annullate. Chiusura dell' oggetto Crystal App ancora non riuscita.</value>
+  </data>
+  <data name="CantCloseReport" xml:space="preserve">
+    <value>Impossibile chiudere il rapporto.</value>
+  </data>
+  <data name="ReportWillNotBeCopied" xml:space="preserve">
+    <value>Il rapporto non verrà copiato - la directory di destinazione ha raggiunto l'80% della capacità. È possibile accedere al rapporto dalla directory predefinita.</value>
+  </data>
+  <data name="ItemAliasAlreadyExistError" xml:space="preserve">
+    <value>L'alias articolo {0} esiste già. Immettere un Alias articolo univoco.</value>
+  </data>
+  <data name="ItemAliasFieldCannotBeEmpty" xml:space="preserve">
+    <value>Il campo Alias articolo non può essere vuoto. Immettere un Alias articolo univoco.</value>
+  </data>
+  <data name="ItemCategoryAlreadyExistError" xml:space="preserve">
+    <value>La categoria articolo {0} esiste già. Immettere una categoria articolo univoca.</value>
+  </data>
+  <data name="ItemClassAlreadyExistError" xml:space="preserve">
+    <value>La classe articolo {0} esiste già. Immettere una classe articolo univoca.</value>
+  </data>
+  <data name="ItemClassFieldCannotBeEmpty" xml:space="preserve">
+    <value>Il campo Classe articolo non può essere vuoto. Immettere una Classe articolo univoca.</value>
+  </data>
+  <data name="HazardAlreadyExistError" xml:space="preserve">
+    <value>Il nome pericolo {0} esiste già. Immettere un nome pericolo univoco.</value>
+  </data>
+  <data name="UnitAlreadyExistError" xml:space="preserve">
+    <value>L'unità di misura {0} esiste già. Immettere un'unità di misura univoca.</value>
+  </data>
+  <data name="ColumnConstraintError" xml:space="preserve">
+    <value>Errore vincolo colonne</value>
+  </data>
+  <data name="DefaultItemClass" xml:space="preserve">
+    <value>Classe articolo predefinita</value>
+  </data>
+  <data name="DuplicateExists" xml:space="preserve">
+    <value>Sono presenti duplicati</value>
+  </data>
+  <data name="ReferenceError" xml:space="preserve">
+    <value>Errore di riferimento</value>
+  </data>
+  <data name="ReferenceStillExists" xml:space="preserve">
+    <value>Il riferimento è ancora esistente</value>
+  </data>
+  <data name="CannotFindFile" xml:space="preserve">
+    <value>Impossibile trovare il file {0}</value>
+  </data>
+  <data name="Restart" xml:space="preserve">
+    <value>Riavvia</value>
+  </data>
+  <data name="TryToRestart" xml:space="preserve">
+    <value>Tentativo di riavvio</value>
+  </data>
+  <data name="DuplicateDiscardReason" xml:space="preserve">
+    <value>Un motivo di eliminazione con lo stesso nome esiste già. Inserire un altro motivo di eliminazione.</value>
+  </data>
+  <data name="ConfirmToDeleteReason" xml:space="preserve">
+    <value>Eliminare il motivo?</value>
+  </data>
+  <data name="TxTempCaseWillBeExpired" xml:space="preserve">
+    <value>Alcune transazioni appartenenti a {0}(ID: {1}) verranno eliminate domani. Per evitare la perdita di transazioni, trasferire {0} a un paziente permanente o a un caso associato a un paziente permanente.</value>
+  </data>
+  <data name="TxTempPatientWillBeExpired" xml:space="preserve">
+    <value>Alcune transazioni appartenenti a {0}(ID: {1}) verranno eliminate domani. Per evitare la perdita di dati, unire {0} a un paziente permanente.</value>
+  </data>
+  <data name="RFIDItemUsed" xml:space="preserve">
+    <value>La tag selezionata è associata a un articolo che è stato utilizzato. Impossibile aggiornare o eliminare l'associazione di tag.</value>
+  </data>
+  <data name="RFIDAssociated" xml:space="preserve">
+    <value>Associata</value>
+  </data>
+  <data name="RFIDConfirmDelete" xml:space="preserve">
+    <value>Eliminare l'associazione?</value>
+  </data>
+  <data name="RFIDInvalidTag" xml:space="preserve">
+    <value>Tag RFID non valida</value>
+  </data>
+  <data name="RFIDLinkScancode" xml:space="preserve">
+    <value>Il codice di scansione immesso non è associato all'articolo selezionato. Associare il codice di scansione all'articolo ora?</value>
+  </data>
+  <data name="RFIDScancodeNotFound" xml:space="preserve">
+    <value>Il codice di scansione immesso non è collegato a un articolo. Selezionare un articolo al quale collegarlo?</value>
+  </data>
+  <data name="RFIDConfirmSave" xml:space="preserve">
+    <value>Salvare l'associazione di tag?</value>
+  </data>
+  <data name="RFIDTagStatus" xml:space="preserve">
+    <value>|Non associata|Associata|Associata\Caricata</value>
+  </data>
+  <data name="RFIDEnterItem" xml:space="preserve">
+    <value>Eseguire la scansione di un articolo Codice scansione o cercare un articolo da associare alla tag.</value>
+  </data>
+  <data name="RFIDEnterTag" xml:space="preserve">
+    <value>Eseguire la scansione o digitare un ID tag per iniziare.</value>
+  </data>
+  <data name="RFIDEnterTagForItem" xml:space="preserve">
+    <value>Eseguire la scansione o digitare un ID tag da associare all'elemento selezionato.</value>
+  </data>
+  <data name="RFIDEnterTracking" xml:space="preserve">
+    <value>Eseguire la scansione o digitare le informazioni di traccia richieste prima di salvare l'associazione.</value>
+  </data>
+  <data name="RFIDTagAssociated" xml:space="preserve">
+    <value>La tag è già associata. Per modificare un valore, aggiornarlo e salvarlo. Se si desidera annullare l'associazione della tag, fare clic su Cancella associazione.</value>
+  </data>
+  <data name="RFIDTagIDInvalid" xml:space="preserve">
+    <value>L'ID tag immesso non è valido. Immettere nuovamente l'ID tag.</value>
+  </data>
+  <data name="RFIDTrackingMissing" xml:space="preserve">
+    <value>Associazione tag non può salvare l'associazione perché le informazioni richieste sono mancanti o non valide. Inserire le informazioni richieste prima di salvare.</value>
+  </data>
+  <data name="RFIDTagLoaded" xml:space="preserve">
+    <value>La tag è già associata e caricata. Per modificare un valore di traccia di un articolo, aggiornarlo e salvarlo.</value>
+  </data>
+  <data name="ItemID" xml:space="preserve">
+    <value>ID articolo</value>
+  </data>
+  <data name="ItemName" xml:space="preserve">
+    <value>Nome articolo</value>
+  </data>
+  <data name="NoRecordFound" xml:space="preserve">
+    <value>Non è stato trovato alcun record corrispondente ai parametri di ricerca.</value>
+  </data>
+  <data name="RebuildFail" xml:space="preserve">
+    <value>Impossibile rigenerare il database</value>
+  </data>
+  <data name="RebuildOK" xml:space="preserve">
+    <value>Rigenerazione database completata correttamente</value>
+  </data>
+  <data name="MaxFilterCharsExceeded" xml:space="preserve">
+    <value>È stato superato il numero massimo di caratteri filtro ({0}). Selezionare meno filtri.</value>
+  </data>
+  <data name="folderInUse" xml:space="preserve">
+    <value>Directory utlizzata da un altro programma. Riprovare più tardi.</value>
+  </data>
+  <data name="rename" xml:space="preserve">
+    <value>Rinominare</value>
+  </data>
+  <data name="newFolder" xml:space="preserve">
+    <value>Nuova cartella</value>
+  </data>
+  <data name="DeleteDefault" xml:space="preserve">
+    <value>XXX The selected domain is set as the default domain.  Please select a new default domain before deleting this domain.</value>
+  </data>
+  <data name="DeleteDomainWarning" xml:space="preserve">
+    <value>XXX Are you sure you want to delete this domain?</value>
+  </data>
+  <data name="DeleteLastDomain" xml:space="preserve">
+    <value>XXX This is the last domain for the Supply System. Deleting this domain will remove active directory registration for all Supply users.  All users will have to use their previous Supply user credentials and may require assistance to reset their password after this change. Do you want to delete this domain?</value>
+  </data>
+  <data name="DeleteUsersDomain" xml:space="preserve">
+    <value>XXX One or more users currently belong to this domain. Deleting the domain will invalidate their active directory registration and require them to re-register their accounts on another domain. Do you want to delete this domain?</value>
+  </data>
+  <data name="EmptyAccountID" xml:space="preserve">
+    <value>XXX Please enter the administrator account ID for the active directory domain.</value>
+  </data>
+  <data name="EmptyDomainName" xml:space="preserve">
+    <value>XXX Please enter the Active Directory domain name.</value>
+  </data>
+  <data name="UniqueDomain" xml:space="preserve">
+    <value>XXX The domain name entered already exists. Please enter a unique domain name.</value>
+  </data>
+  <data name="DomainDeletedSrvMsg" xml:space="preserve">
+    <value>XXX Domain {0} has been deleted from the system configuration.</value>
+  </data>
+  <data name="DomainRenamedSrvMsg" xml:space="preserve">
+    <value>XXX The domain {0} has been changed/renamed to domain {1}.</value>
+  </data>
+  <data name="InvalidLogin" xml:space="preserve">
+    <value>XXX The Active Directory user name and /or password you are attempting to register is invalid.</value>
+  </data>
+  <data name="AccountLocked" xml:space="preserve">
+    <value>XXX The Active Directory account you are attempting to register is locked. Contact your organization's network administrator for further assistance.</value>
+  </data>
+  <data name="ExpiredPassword" xml:space="preserve">
+    <value>XXX The password associated with the Active Directory account you are attempting to register is expired and must be changed.  Please use another network computer to change your password.</value>
+  </data>
+  <data name="InvalidAccount" xml:space="preserve">
+    <value>XXX The Active Directory account you are attempting to register is invalid. Contact your organization's network administrator for further assistance.</value>
+  </data>
+  <data name="EmptySystemAccountName" xml:space="preserve">
+    <value>XXX Please enter the system account name for this domain.</value>
+  </data>
+  <data name="InvalidSystemAccount" xml:space="preserve">
+    <value>XXX Please update the System Account for domain {0} to ensure proper Active Directory integration.</value>
+  </data>
+  <data name="LoginFailed" xml:space="preserve">
+    <value>XXX Login failed for user {0}@{1}. Exception : {2}</value>
+  </data>
+  <data name="PasswordUpdated" xml:space="preserve">
+    <value>XXX Domain password updated for domain user account {0}@{1}.</value>
+  </data>
+  <data name="UnableToConnectDomain" xml:space="preserve">
+    <value>XXX Unable to connect to the specified domain. Please verify that the domain name and system account credentials are entered correctly.</value>
+  </data>
+  <data name="ADNetworkError" xml:space="preserve">
+    <value>XXX Network error occurred while attempt to access the Active Directory server {0}.</value>
+  </data>
+  <data name="DisabledAccount" xml:space="preserve">
+    <value>XXX Attempt to login with disabled account:{0}@{1}</value>
+  </data>
+  <data name="ExpiredAccount" xml:space="preserve">
+    <value>XXX Attempt to login with expired account: {0}@{1}</value>
+  </data>
+  <data name="LockedAccount" xml:space="preserve">
+    <value>XXX Attempt to login with locked account: {0}@{1}</value>
+  </data>
+  <data name="UserRegistered" xml:space="preserve">
+    <value>XXX User ID {0} has successfully registered for Active Directory using account {1}@{2}.</value>
+  </data>
+  <data name="ExpiredADPassword" xml:space="preserve">
+    <value>XXX Attempt to login using an expired password. Active Directory account {0}@{1}.</value>
+  </data>
+  <data name="InvalidCredentials" xml:space="preserve">
+    <value>XXX Attempt to login using invalid credentials with Active Directory account {0}@{1}.</value>
+  </data>
+  <data name="EditDomain" xml:space="preserve">
+    <value>XXX Edit Domain</value>
+  </data>
+  <data name="EmptySystemPassword" xml:space="preserve">
+    <value>XXXPlease enter the system account password for this domain.</value>
+  </data>
+  <data name="ModifyDomainName" xml:space="preserve">
+    <value>XXXModifying the domain name will change the domain for all users currently associated with this domain. Do you wish to continue?</value>
+  </data>
+  <data name="DuplicateUser" xml:space="preserve">
+    <value>XXX The Active Directory account you are attempting to register is already associated with another Supply user’s account. An Active Directory account can only be associated with a single Supply user account</value>
+  </data>
+  <data name="ADCommunicationFailed" xml:space="preserve">
+    <value>XXX The system failed to access the Active Directory.   Contact your organization's network administrator for further assistance.</value>
+  </data>
+  <data name="CantDeleteLastDomain" xml:space="preserve">
+    <value>XXXAt least one Active Directory domain must be enabled at all times when the Active Directory only site option is turned on.  Please add an additional domain or turn off Active Directory only before attempting to delete this domain.</value>
+  </data>
+</root>
